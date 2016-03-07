@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Media on nRT</title>
-    <link>http://www.nishanttotla.com/tags/social-media/</link>
+    <link>http://nishanttotla.github.io/tags/social-media/</link>
     <description>Recent content in Social Media on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2015 16:01:47 -0800</lastBuildDate>
-    <atom:link href="http://www.nishanttotla.com/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nishanttotla.github.io/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>India&#39;s Undercurrent of Propaganda</title>
-      <link>http://www.nishanttotla.com/blog/india-undercurrent-propaganda/</link>
+      <link>http://nishanttotla.github.io/blog/india-undercurrent-propaganda/</link>
       <pubDate>Fri, 06 Nov 2015 16:01:47 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/india-undercurrent-propaganda/</guid>
+      <guid>http://nishanttotla.github.io/blog/india-undercurrent-propaganda/</guid>
       <description>&lt;p&gt;India is currently at an interesting political standpoint. We finally have a single party forming the central government without needing support from other parties (last this happened was in 1984). The average Indian person seems to be much more aware and concerned about the political situation, and invested in the country’s future, especially young people. All of this is a major shift compared to a few years ago. There have been several contributing factors – dissatisfaction with the UPA govt., anti-corruption activism by AAP, strong leadership in the BJP to name a few. Optimism has been brewing for a while and people are looking forward to progress. Whether the current political setup will deliver on all promises remains to be seen, but as the collective euphoria fades, there’s a different kind of problem surfacing in the country now. It’s difficult to describe precisely, but it includes a deepening chasm between different groups of people, lack of constructive criticism and the ability to handle it, and a seeming absence of nuanced public discourse. Of course, these are my opinions, but the explosion of Indians’ social media presence has made it easy to quickly process a lot of diverse opinions to try and make sense of what people really think.&lt;/p&gt;
 
 &lt;p&gt;For example, religious intolerance is a hot topic right now after &lt;a href=&#34;http://www.aljazeera.com/news/2015/09/indian-mob-kills-man-cow-slaughter-rumour-150930193719666.html&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://www.bbc.com/news/world-asia-india-34504434&#34;&gt;unsavory&lt;/a&gt; &lt;a href=&#34;http://www.aljazeera.com/indepth/features/2015/11/indian-scholars-return-awards-demand-free-speech-151102101213399.html&#34;&gt;events&lt;/a&gt; over the last few weeks. This has led several people to express concern, while many others think of these events as outliers. Going further, some believe in a full fledged international conspiracy to bring the country down. It doesn’t help that opposing political parties readily exploit the situation, the news media is downright sensationalist and often insensitive, and the ruling party remains selectively silent. I will NOT try to pick sides in these debates, because that is futile and painful&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:e27ad0a7be6c3af4d3da2b23560dabef:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:e27ad0a7be6c3af4d3da2b23560dabef:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. What I do want to talk about is how bigoted propaganda is proliferating in the country right now, aided both by easier access to technology and people’s unwillingness to see eye to eye on complex issues that don’t have straightforward answers. As a result, the answers aren’t coming.&lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;p&gt;Notwithstanding what public figures say, how are common citizens actually forming opinions? After all, public opinion can hold huge sway in a democracy, and it’s really important that people get their facts right. This is my biggest beef with this whole undercurrent of propaganda – pure BS spreading around virally. As mobile phones and internet access spread quickly, exposing many people to the internet for the first time, we can expect that what they will be fed a lot of new ideas. If seasoned internet users sometimes can’t tell what’s true online, I fear that new users are especially prone to believing everything they read. Especially content that is articulate and sounds legitimate. Consider this WhatsApp message that’s been going around&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img data-action=&#34;zoom&#34; src=&#34;http://www.nishanttotla.com/images/propaganda-post/msg1.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.github.io/images/propaganda-post/msg1.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;If you need a translation, click &lt;a href=&#34;https://paper.dropbox.com/doc/Translations-for-propaganda-messages-forwarded-in-India-Fk3IGFAI5WiDA2aSOH9m5&#34;&gt;here&lt;/a&gt;. This is a great example of a message that sounds so harmless at first, but eventually subtly tries to pass off a positive correlation between not killing cows and a country’s progress. There’s no such correlation obviously, and Uruguay doesn’t hang people if they kill a cow. On the contrary, Uruguay is a leading exporter of premium quality beef, often lauded for its &lt;a href=&#34;http://www.bbc.com/news/world-latin-america-30210749&#34;&gt;advanced practices&lt;/a&gt;. See how this further fuels the controversy around beef, in a country where &lt;a href=&#34;http://timesofindia.indiatimes.com/india/Haryana-makes-sale-of-beef-a-non-bailable-offence/articleshow/46590961.cms&#34;&gt;it’s already a storm&lt;/a&gt;? As if it doesn’t matter that Uruguay has an entirely different economy, size, and social structure. This might seem like a trivial example, but innocuous things like these can end up being influential in shaping people’s ideas. Just consider the following tweet&lt;/p&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Yet another issue that I consider unique to India (as far as I’m aware) is sharing propaganda via private messaging services such as WhatsApp. These have exploded in popularity over the last few years. Communities and groups on these services are also ripe grounds for spreading misinformation – but with an additional downer – there is no liability or a way to verify anything. For instance, who knows where the message about Uruguay above came from, how many people read or questioned it. There is no way to know, nor can you call someone out for manufacturing information (like you can with tweets or Facebook posts). What’s commonly shared here are messages that paint a one-sided picture, reinforcing whatever people believe or want to believe. People’s social circles are often largely composed of other people with similar views, and there is little opportunity to see the broader context, or have healthy debates. This leads to them saying things like “I don’t see any religious intolerance around me, it’s all fake” etc. This also makes it easy for them to generalize their views about other groups of people. Here’s another example&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img data-action=&#34;zoom&#34; src=&#34;http://www.nishanttotla.com/images/propaganda-post/msg2.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.github.io/images/propaganda-post/msg2.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Click &lt;a href=&#34;https://paper.dropbox.com/doc/Translations-for-propaganda-messages-forwarded-in-India-Fk3IGFAI5WiDA2aSOH9m5#:h=Message-2&#34;&gt;here&lt;/a&gt; for a translation. Notice how this message makes tall claims, and signs off as the PMO (Prime Minister’s Office). It’s not hard to craft messages like these, and there are several people who believe that this is actually coming from the PMO. That can’t be right at all!&lt;/p&gt;

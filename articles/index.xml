@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on nRT</title>
-    <link>http://www.nishanttotla.com/articles/</link>
+    <link>http://nishanttotla.github.io/articles/</link>
     <description>Recent content in Articles on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Jan 2016 16:25:04 -0800</lastBuildDate>
-    <atom:link href="http://www.nishanttotla.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nishanttotla.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Distributed Systems Resources</title>
-      <link>http://www.nishanttotla.com/articles/distributed-systems-resources/</link>
+      <link>http://nishanttotla.github.io/articles/distributed-systems-resources/</link>
       <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/articles/distributed-systems-resources/</guid>
+      <guid>http://nishanttotla.github.io/articles/distributed-systems-resources/</guid>
       <description>
 
 &lt;p&gt;I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.&lt;/p&gt;

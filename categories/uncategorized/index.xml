@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategorized on nRT</title>
-    <link>http://www.nishanttotla.com/categories/uncategorized/</link>
+    <link>http://nishanttotla.github.io/categories/uncategorized/</link>
     <description>Recent content in Uncategorized on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2015 16:01:47 -0800</lastBuildDate>
-    <atom:link href="http://www.nishanttotla.com/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nishanttotla.github.io/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>India&#39;s Undercurrent of Propaganda</title>
-      <link>http://www.nishanttotla.com/blog/india-undercurrent-propaganda/</link>
+      <link>http://nishanttotla.github.io/blog/india-undercurrent-propaganda/</link>
       <pubDate>Fri, 06 Nov 2015 16:01:47 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/india-undercurrent-propaganda/</guid>
+      <guid>http://nishanttotla.github.io/blog/india-undercurrent-propaganda/</guid>
       <description>&lt;p&gt;India is currently at an interesting political standpoint. We finally have a single party forming the central government without needing support from other parties (last this happened was in 1984). The average Indian person seems to be much more aware and concerned about the political situation, and invested in the country’s future, especially young people. All of this is a major shift compared to a few years ago. There have been several contributing factors – dissatisfaction with the UPA govt., anti-corruption activism by AAP, strong leadership in the BJP to name a few. Optimism has been brewing for a while and people are looking forward to progress. Whether the current political setup will deliver on all promises remains to be seen, but as the collective euphoria fades, there’s a different kind of problem surfacing in the country now. It’s difficult to describe precisely, but it includes a deepening chasm between different groups of people, lack of constructive criticism and the ability to handle it, and a seeming absence of nuanced public discourse. Of course, these are my opinions, but the explosion of Indians’ social media presence has made it easy to quickly process a lot of diverse opinions to try and make sense of what people really think.&lt;/p&gt;
 
 &lt;p&gt;For example, religious intolerance is a hot topic right now after &lt;a href=&#34;http://www.aljazeera.com/news/2015/09/indian-mob-kills-man-cow-slaughter-rumour-150930193719666.html&#34;&gt;some&lt;/a&gt; &lt;a href=&#34;http://www.bbc.com/news/world-asia-india-34504434&#34;&gt;unsavory&lt;/a&gt; &lt;a href=&#34;http://www.aljazeera.com/indepth/features/2015/11/indian-scholars-return-awards-demand-free-speech-151102101213399.html&#34;&gt;events&lt;/a&gt; over the last few weeks. This has led several people to express concern, while many others think of these events as outliers. Going further, some believe in a full fledged international conspiracy to bring the country down. It doesn’t help that opposing political parties readily exploit the situation, the news media is downright sensationalist and often insensitive, and the ruling party remains selectively silent. I will NOT try to pick sides in these debates, because that is futile and painful&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:e27ad0a7be6c3af4d3da2b23560dabef:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:e27ad0a7be6c3af4d3da2b23560dabef:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. What I do want to talk about is how bigoted propaganda is proliferating in the country right now, aided both by easier access to technology and people’s unwillingness to see eye to eye on complex issues that don’t have straightforward answers. As a result, the answers aren’t coming.&lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;p&gt;Notwithstanding what public figures say, how are common citizens actually forming opinions? After all, public opinion can hold huge sway in a democracy, and it’s really important that people get their facts right. This is my biggest beef with this whole undercurrent of propaganda – pure BS spreading around virally. As mobile phones and internet access spread quickly, exposing many people to the internet for the first time, we can expect that what they will be fed a lot of new ideas. If seasoned internet users sometimes can’t tell what’s true online, I fear that new users are especially prone to believing everything they read. Especially content that is articulate and sounds legitimate. Consider this WhatsApp message that’s been going around&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img data-action=&#34;zoom&#34; src=&#34;http://www.nishanttotla.com/images/propaganda-post/msg1.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.github.io/images/propaganda-post/msg1.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;If you need a translation, click &lt;a href=&#34;https://paper.dropbox.com/doc/Translations-for-propaganda-messages-forwarded-in-India-Fk3IGFAI5WiDA2aSOH9m5&#34;&gt;here&lt;/a&gt;. This is a great example of a message that sounds so harmless at first, but eventually subtly tries to pass off a positive correlation between not killing cows and a country’s progress. There’s no such correlation obviously, and Uruguay doesn’t hang people if they kill a cow. On the contrary, Uruguay is a leading exporter of premium quality beef, often lauded for its &lt;a href=&#34;http://www.bbc.com/news/world-latin-america-30210749&#34;&gt;advanced practices&lt;/a&gt;. See how this further fuels the controversy around beef, in a country where &lt;a href=&#34;http://timesofindia.indiatimes.com/india/Haryana-makes-sale-of-beef-a-non-bailable-offence/articleshow/46590961.cms&#34;&gt;it’s already a storm&lt;/a&gt;? As if it doesn’t matter that Uruguay has an entirely different economy, size, and social structure. This might seem like a trivial example, but innocuous things like these can end up being influential in shaping people’s ideas. Just consider the following tweet&lt;/p&gt;
@@ -50,7 +50,7 @@
 &lt;p&gt;Yet another issue that I consider unique to India (as far as I’m aware) is sharing propaganda via private messaging services such as WhatsApp. These have exploded in popularity over the last few years. Communities and groups on these services are also ripe grounds for spreading misinformation – but with an additional downer – there is no liability or a way to verify anything. For instance, who knows where the message about Uruguay above came from, how many people read or questioned it. There is no way to know, nor can you call someone out for manufacturing information (like you can with tweets or Facebook posts). What’s commonly shared here are messages that paint a one-sided picture, reinforcing whatever people believe or want to believe. People’s social circles are often largely composed of other people with similar views, and there is little opportunity to see the broader context, or have healthy debates. This leads to them saying things like “I don’t see any religious intolerance around me, it’s all fake” etc. This also makes it easy for them to generalize their views about other groups of people. Here’s another example&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img data-action=&#34;zoom&#34; src=&#34;http://www.nishanttotla.com/images/propaganda-post/msg2.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.github.io/images/propaganda-post/msg2.png&#34; style=&#34;width:50%;&#34;&gt;&lt;/img&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Click &lt;a href=&#34;https://paper.dropbox.com/doc/Translations-for-propaganda-messages-forwarded-in-India-Fk3IGFAI5WiDA2aSOH9m5#:h=Message-2&#34;&gt;here&lt;/a&gt; for a translation. Notice how this message makes tall claims, and signs off as the PMO (Prime Minister’s Office). It’s not hard to craft messages like these, and there are several people who believe that this is actually coming from the PMO. That can’t be right at all!&lt;/p&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>Learning about Empathy</title>
-      <link>http://www.nishanttotla.com/blog/learning-about-empathy/</link>
+      <link>http://nishanttotla.github.io/blog/learning-about-empathy/</link>
       <pubDate>Wed, 28 Oct 2015 15:46:09 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/learning-about-empathy/</guid>
+      <guid>http://nishanttotla.github.io/blog/learning-about-empathy/</guid>
       <description>&lt;p&gt;Empathy is such a simple concept to understand, yet so difficult to practice! Kids are taught about it. The word itself is lazily thrown around, assuming everyone knows how to empathize, that it’s something we’re naturally good at. Well we’re not! Even if we care enough to look outside our own busy lives to try and want to empathize with someone, it’s too easy to fall into the trap of making judgments or believing we know everything about another person’s situation. Empathy is especially tough because it requires us to not only understand a different person, but also to set aside our own biases and keep an open mind, all of which are notoriously difficult things to do.&lt;/p&gt;
 
 &lt;p&gt;After having gone through a rough patch involving several personal struggles over the last two years, and distinctly feeling that nobody understood my situation, I’ve realized an important lesson. Empathy is defined as “the ability to understand and share the feelings of another person”, and that is really the key – &lt;strong&gt;understanding feelings&lt;/strong&gt; – as opposed to just understanding the problem at hand or trying to find a solution. The best way to do it is simpler than you can imagine, you just have to ask! Think about it, how many people have asked you in the last few days how you feel? Have you asked anyone? We all struggle with the stresses of modern life, but rarely ask each other how we feel. To add to it, we immediately make up our minds about others, and this only blocks out further communication.&lt;/p&gt;
@@ -94,10 +94,10 @@
     
     <item>
       <title>Supporting a Football Club</title>
-      <link>http://www.nishanttotla.com/blog/supporting-a-football-club/</link>
+      <link>http://nishanttotla.github.io/blog/supporting-a-football-club/</link>
       <pubDate>Mon, 26 Oct 2015 19:10:35 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/supporting-a-football-club/</guid>
+      <guid>http://nishanttotla.github.io/blog/supporting-a-football-club/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://news.bbc.co.uk/sport2/hi/football/eng_prem/3553027.stm&#34;&gt;Sunday, March 28, 2004 : Arsenal vs Manchester United at Highbury, London&lt;/a&gt; was the first live football game I watched (on TV, of course). I’d only ever followed cricket before that and played some football, but this was unlike anything I knew in sport. It was fast and full of action. These players were really passionate and the tension was palpable. Then on 50 minutes, &lt;a href=&#34;https://www.youtube.com/watch?v=zWhCegHpQJc&amp;amp;feature=youtu.be&amp;amp;t=257&#34;&gt;Arsenal’s number 14 scored&lt;/a&gt; from a brilliant long range effort, a stunning goal by any standard! The game ended at 1-1, but Arsenal were beautiful to watch. They counter-attacked with breathtaking speed, defended like a rock, and had brilliant individuals. I would go on to watch a few more Arsenal games that season. When I visited Mauritius the following summer and saw a banner proclaiming “Arsenal – Champions 2003-04”, the club’s global reach made an impression on me – I had made my choice.&lt;/p&gt;
 
 &lt;p&gt;I support Arsenal Football Club. I watch their games, follow their activities, feel happy when they win, disappointed when they don’t. But why all this long-term affection for a team that’s based thousands of miles away, in a city I’ve never lived in? Why spend so much time and energy worrying about what is “just a game after all”? In short, what does it mean to support a club?&lt;/p&gt;
@@ -161,10 +161,10 @@
     
     <item>
       <title>Rediscovering Podcasts</title>
-      <link>http://www.nishanttotla.com/blog/rediscovering-podcasts/</link>
+      <link>http://nishanttotla.github.io/blog/rediscovering-podcasts/</link>
       <pubDate>Mon, 19 Oct 2015 15:50:52 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/rediscovering-podcasts/</guid>
+      <guid>http://nishanttotla.github.io/blog/rediscovering-podcasts/</guid>
       <description>&lt;p&gt;This summer, I was interviewing at several companies. Among other things, it involved a lot of travel, and there was little I could do while traveling. If I was driving, I’d mostly listen to my usual Spotify playlists, although they got boring pretty soon. Taking the train allowed me to read in addition, but I’d usually get distracted or fall asleep since the interviews were exhausting. Soon enough, all this travel time started feeling wasteful, but I wanted to reclaim it, so I constantly tried to find ways to engage in something productive, or learn something new. Then one day I was reading an article in which CEOs of some companies described how they made their commutes productive. One of the ideas was to listen to audiobooks. I didn’t have any books in mind, but I immediately remembered how I’d once wanted to try podcasts, and never did. I downloaded an &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&amp;amp;hl=en&#34;&gt;Android app&lt;/a&gt; and loaded some interesting podcasts. I quickly realized that this was what I was looking for!&lt;/p&gt;
 
 &lt;p&gt;&lt;blockquote class=&#34;twitter-tweet tw-align-center&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I don&amp;#39;t know why I only recently discovered how nice it is to listen to podcasts while driving. It&amp;#39;s educative + makes me feel less lonely.&lt;/p&gt;&amp;mdash; Nishant Totla (@nishanttotla) &lt;a href=&#34;https://twitter.com/nishanttotla/status/634283994704535552&#34;&gt;August 20, 2015&lt;/a&gt;&lt;/blockquote&gt;
@@ -178,10 +178,10 @@
     
     <item>
       <title>Eight Lessons I Learned in College</title>
-      <link>http://www.nishanttotla.com/blog/x-lessons-i-learned-in-college/</link>
+      <link>http://nishanttotla.github.io/blog/x-lessons-i-learned-in-college/</link>
       <pubDate>Thu, 21 Jun 2012 19:26:42 -0800</pubDate>
       
-      <guid>http://www.nishanttotla.com/blog/x-lessons-i-learned-in-college/</guid>
+      <guid>http://nishanttotla.github.io/blog/x-lessons-i-learned-in-college/</guid>
       <description>
 
 &lt;p&gt;I’m writing a post after around five months! Whoa! What a ride the last semester has been! I’ve now graduated (provided they give me my degree) from one of the best colleges in India, with new hopes and dreams, some knowledge, passion and a lot of friends. The past few months have been a blur, and I’ve done loads of new things. Most importantly, I’ve had the opportunity to think about and look at all that I accomplished (or failed to accomplish) during college, I’ve thought about where my motivations lie, what I want from life and ultimately how I’m going to achieve that. And in this post, I’m going to try and summarize all that. I entered this place as a high-on-success and low-on-wisdom defiant individual. I now leave as a mature and responsible, motivated and slightly wiser person. So here are some of the most important lessons I would want to pass on after having survived the jungle that undergraduate life is&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9b58b0368b70bddebc221d8554995d35:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9b58b0368b70bddebc221d8554995d35:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:9b58b0368b70bddebc221d8554995d35:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:9b58b0368b70bddebc221d8554995d35:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
