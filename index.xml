@@ -30,10 +30,12 @@
 
 &lt;h3 id=&#34;setting-up-a-mounted-folder-on-a-virtualbox-vm:0845bcb07a42949b6056d62ad8760900&#34;&gt;Setting up a mounted folder on a VirtualBox VM&lt;/h3&gt;
 
-&lt;p&gt;It&amp;rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&amp;rsquo;ve installed the VM, make sure you install &lt;code&gt;openssh-server&lt;/code&gt; to be able to SSH into it from the host&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:0845bcb07a42949b6056d62ad8760900:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:0845bcb07a42949b6056d62ad8760900:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. The other requirement is Guest Additions, without which mounting won&amp;rsquo;t work. It&amp;rsquo;s straightforward to install, and &lt;a href=&#34;http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm&#34;&gt;several articles&lt;/a&gt; online explain how to do it.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&amp;rsquo;ve installed the VM, make sure you install &lt;code&gt;openssh-server&lt;/code&gt; to be able to SSH into it from the host&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:0845bcb07a42949b6056d62ad8760900:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:0845bcb07a42949b6056d62ad8760900:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ sudo apt-get install openssh-server
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The other requirement is Guest Additions, without which mounting won&amp;rsquo;t work. It&amp;rsquo;s straightforward to install, and &lt;a href=&#34;http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm&#34;&gt;several articles&lt;/a&gt; online explain how to do it.&lt;/p&gt;
 
 &lt;p&gt;Now we need to create a mounted folder. Right click on the VM and go to Settings, under Shared Folders. There, mount your folder of choice as a Machine Folder, and give it a name. I mount the &lt;code&gt;work&lt;/code&gt; folder in my home directory, and call the mount &lt;code&gt;workmac&lt;/code&gt; (any name is fine).&lt;/p&gt;
 

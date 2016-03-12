@@ -124,10 +124,12 @@
 
 <h3 id="setting-up-a-mounted-folder-on-a-virtualbox-vm:0845bcb07a42949b6056d62ad8760900">Setting up a mounted folder on a VirtualBox VM</h3>
 
-<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:0845bcb07a42949b6056d62ad8760900:3"><a rel="footnote" href="#fn:0845bcb07a42949b6056d62ad8760900:3">3</a></sup>. The other requirement is Guest Additions, without which mounting won&rsquo;t work. It&rsquo;s straightforward to install, and <a href="http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm">several articles</a> online explain how to do it.</p>
+<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:0845bcb07a42949b6056d62ad8760900:3"><a rel="footnote" href="#fn:0845bcb07a42949b6056d62ad8760900:3">3</a></sup>.</p>
 
 <pre><code>$ sudo apt-get install openssh-server
 </code></pre>
+
+<p>The other requirement is Guest Additions, without which mounting won&rsquo;t work. It&rsquo;s straightforward to install, and <a href="http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-a-virtualbox-vm">several articles</a> online explain how to do it.</p>
 
 <p>Now we need to create a mounted folder. Right click on the VM and go to Settings, under Shared Folders. There, mount your folder of choice as a Machine Folder, and give it a name. I mount the <code>work</code> folder in my home directory, and call the mount <code>workmac</code> (any name is fine).</p>
 
