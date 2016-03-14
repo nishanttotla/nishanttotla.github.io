@@ -53,7 +53,7 @@
 &lt;pre&gt;&lt;code&gt;$ sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) workmac work-vm
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Change the mount and directory names as appropriate for you. And that&amp;rsquo;s it! Now you should be able to access a mirror of the host folder inside the VM without any of the messy &lt;code&gt;rsync&lt;/code&gt; scripts. Note that if you reboot the VM, you&amp;rsquo;ll have to run the mount command again &amp;ndash; a requirement you can surpass by adding the line to you &lt;code&gt;.bashrc&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;Change the mount and directory names as appropriate for you. And that&amp;rsquo;s it! Now you should be able to access a mirror of the host folder inside the VM without any of the messy &lt;code&gt;rsync&lt;/code&gt; scripts. Note that if you reboot the VM, you&amp;rsquo;ll have to run the mount command again &amp;ndash; a requirement you can surpass by adding the line to your &lt;code&gt;.bashrc&lt;/code&gt; file.&lt;/p&gt;
 
 &lt;h3 id=&#34;advantages-of-this-setup:0845bcb07a42949b6056d62ad8760900&#34;&gt;Advantages of this setup&lt;/h3&gt;
 
