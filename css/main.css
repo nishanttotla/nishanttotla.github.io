@@ -389,25 +389,18 @@ div#disqus_area {
   padding: 2rem;
 }
 
-/* pygments highlighting */
-.highlight {
-/*  padding: 10px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;*/
-}
-
-code {
-  background: white;
-  border: 1px solid #ddd;
+pre {
+  background: #f2f2f2;
+  border-radius: 4px;
 }
 
 pre, .highlight pre {
   line-height: 135%;
-  white-space: pre-wrap;
+/*  white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
-  word-wrap: break-word;
+  word-wrap: break-word;*/
   /*margin: 0;*/
 }
 /* MEDIA QUERIES */
