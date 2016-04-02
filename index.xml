@@ -11,10 +11,10 @@
     
     <item>
       <title>Why I Moved to a Static Website</title>
-      <link>http://nishanttotla.com/articles/why-i-moved-to-static-website/</link>
+      <link>http://nishanttotla.com/blog/why-i-moved-to-static-website/</link>
       <pubDate>Mon, 14 Mar 2016 00:52:35 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/articles/why-i-moved-to-static-website/</guid>
+      <guid>http://nishanttotla.com/blog/why-i-moved-to-static-website/</guid>
       <description>
 
 &lt;p&gt;As some of you know, I&amp;rsquo;ve maintained a personal website/blog for a few years now. I&amp;rsquo;ve always liked writing, because I consider it to be a natural extension of thinking. While I&amp;rsquo;m not great with words, I do love keeping track of things I learn &amp;ndash; that&amp;rsquo;s really what a blog means to me. Over time, I went through several iterations to find the right platform. Things always revolved around WordPress, and regardless of what I tried, the experience of writing never got much better. What&amp;rsquo;s more, there was actually a huge overhead to log into WordPress, not get turned off by the painfully slow interface, and then finally type a post &amp;ndash; only to require a new plugin for each added functionality, which made the website progressively slower. I tried optimizing using several tricks, but at the end of the day I hated it.&lt;/p&gt;
@@ -56,6 +56,7 @@
 &lt;li&gt;Creating a good static site is likely to be more work, and takes a certain amount of comfort with web design. You also need to set up your own workflow which might be hard if you&amp;rsquo;re unfamiliar with programming tools.&lt;/li&gt;
 &lt;li&gt;Static websites won&amp;rsquo;t offer full dynamic functionality the way a WordPress site can, so you need to think about what you really need.&lt;/li&gt;
 &lt;li&gt;The overall writing experience might not appeal to you after all, if you prefer using WYSIWYG editors and writing tools (although considering the power of static site generators and modern text editors, I&amp;rsquo;m not unhappy).&lt;/li&gt;
+&lt;li&gt;It can be difficult to use other devices to write posts, depending on how complex it is to set up the development environment. Hugo makes it easy, but there can still be challenges with versioning, or when extra tools are needed. At the very least, editing on the phone will be difficult (unlike WordPress).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;in-conclusion:57a527704b389062d91c7b9be304d601&#34;&gt;In Conclusion&lt;/h3&gt;
@@ -73,10 +74,10 @@
     
     <item>
       <title>Building Code Inside a VM</title>
-      <link>http://nishanttotla.com/articles/building-code-inside-vm/</link>
+      <link>http://nishanttotla.com/blog/building-code-inside-vm/</link>
       <pubDate>Fri, 11 Mar 2016 13:35:12 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/articles/building-code-inside-vm/</guid>
+      <guid>http://nishanttotla.com/blog/building-code-inside-vm/</guid>
       <description>
 
 &lt;p&gt;This post is based on the workflow I&amp;rsquo;ve been employing during my day to day work at Docker. When I first started, I chose to get a 13&amp;rsquo; Macbook Pro, which is a pretty solid machine to own. But a lot of the compiling and testing I needed to do needed a Linux distribution, so I had two options &amp;ndash; install Linux or use a Virtual Machine (VM). Installing VirtualBox and using a simple Ubuntu VM is a fairly straightforward solution, but there were two problems&lt;/p&gt;
@@ -233,10 +234,10 @@
     
     <item>
       <title>Distributed Systems Resources</title>
-      <link>http://nishanttotla.com/articles/distributed-systems-resources/</link>
+      <link>http://nishanttotla.com/blog/distributed-systems-resources/</link>
       <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/articles/distributed-systems-resources/</guid>
+      <guid>http://nishanttotla.com/blog/distributed-systems-resources/</guid>
       <description>
 
 &lt;p&gt;I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.&lt;/p&gt;
