@@ -6,8 +6,26 @@
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2016 15:01:35 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2016 12:05:11 -0700</lastBuildDate>
     <atom:link href="http://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I&#39;m Not Here to Get Things Done</title>
+      <link>http://nishanttotla.com/blog/im-not-here-to-get-things-done/</link>
+      <pubDate>Tue, 05 Apr 2016 12:05:11 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/im-not-here-to-get-things-done/</guid>
+      <description>&lt;p&gt;I was talking to my friend &lt;a href=&#34;https://twitter.com/bothra90&#34;&gt;Abhay&lt;/a&gt; recently, and he brought up a very interesting idea. He works at a software startup that&amp;rsquo;s still relatively small, which means that there&amp;rsquo;s a certain amount of pressure to make quick progress and produce results. This requires having to churn out functioning code on a regular basis. Unfortunately, it&amp;rsquo;s often easy to write code by pattern-matching or copying from other sources &amp;ndash; but an entirely different thing to fully understand, and internalize what you&amp;rsquo;re doing. In the long term, only the latter will stick with you, making you a better engineer. Obviously, there has to be a healthy balance between the two. The problem though is that companies are typically paying you to do the former, while not always incentivizing the latter. This is what he said about his job&lt;/p&gt;
+
+&lt;div class=&#34;custom-quote&#34;&gt;
+  &lt;h1 class=&#34;icon-quote-left&#34;&gt;&lt;/i&gt;&lt;/h1&gt;
+  &lt;p&gt;I&#39;m not here to get things done. I&#39;m here to learn. Things will get done as a by-product of what I learn.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I strongly believe that it&amp;rsquo;s largely your responsibility to ensure that you&amp;rsquo;re learning, and not succumbing to the pressure to show progress. The reason I liked his point of view was because it&amp;rsquo;s a good attitude to have, and helps to set expectations. In my own work, I have certainly written code I didn&amp;rsquo;t fully understand, had it compile and pass all tests. It&amp;rsquo;s easy to feel accomplished doing that, but important to remember it&amp;rsquo;s not the end goal.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>So Who Wants to Volunteer?</title>
@@ -262,6 +280,7 @@
 
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;http://the-paper-trail.org/&#34;&gt;The Paper Trail&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/HenryR&#34;&gt;Henry Robinson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aphyr.com/posts&#34;&gt;Aphyr&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/aphyr&#34;&gt;Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;books:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Books&lt;/h3&gt;
@@ -273,12 +292,13 @@
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/HenryR&#34;&gt;Henry Robinson&lt;/a&gt;, Cloudera&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/pbailis&#34;&gt;Peter Bailis&lt;/a&gt;, Stanford University&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/aphyr&#34;&gt;Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;meetups:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Meetups&lt;/h3&gt;
+&lt;h3 id=&#34;misc:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Misc&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Papers We Love [&lt;a href=&#34;https://twitter.com/papers_we_love&#34;&gt;Twitter&lt;/a&gt;] [&lt;a href=&#34;http://www.meetup.com/papers-we-love-too/&#34;&gt;San Francisco&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Papers We Love [&lt;a href=&#34;https://twitter.com/papers_we_love&#34;&gt;Twitter&lt;/a&gt;] [&lt;a href=&#34;http://www.meetup.com/papers-we-love-too/&#34;&gt;San Francisco&lt;/a&gt;] is a cool meetup that discusses research papers, with chapters around the world.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;want-to-contribute-to-this-post:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Want to Contribute to this post?&lt;/h3&gt;
@@ -622,20 +642,6 @@
 &lt;h3 id=&#34;connect:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Connect&lt;/h3&gt;
 
 &lt;p&gt;The best way to reach me is via &lt;a title=&#34;Email&#34; href=&#34;mailto:nishanttotla@gmail.com&#34;&gt;&lt;i class=&#34;icon-gmail&#34;&gt;&lt;/i&gt;&lt;/a&gt; or &lt;a title=&#34;Twitter&#34; href=&#34;http://twitter.com/home?status=@nishanttotla&#34;&gt;&lt;i class=&#34;icon-twitter&#34;&gt;&lt;/i&gt;&lt;/a&gt;. If you&amp;rsquo;re a recruiter, read &lt;a href=&#34;http://nishanttotla.com/recruiting&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Colophon</title>
-      <link>http://nishanttotla.com/colophon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://nishanttotla.com/colophon/</guid>
-      <description>&lt;p&gt;This website is written using &lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;Sublime Text 3&lt;/a&gt; and compiled into HTML using &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt; - a static site generator written in &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;. The design is based on top of the excellent work by &lt;a href=&#34;http://prakhar.me&#34;&gt;Prakhar Srivastav&lt;/a&gt; using the minimalistic CSS framework called &lt;a href=&#34;http://getskeleton.com&#34;&gt;Skeleton&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Icons on the site are courtesy of &lt;a href=&#34;http://fontello.com/&#34;&gt;Fontello&lt;/a&gt;. Typography uses &lt;a href=&#34;https://github.com/adobe-fonts/source-serif-pro&#34;&gt;Source Serif Pro&lt;/a&gt; and &lt;a href=&#34;https://github.com/theleagueof/raleway&#34;&gt;Raleway&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Lastly, &lt;a href=&#34;http://git-scm.com/&#34;&gt;Git&lt;/a&gt; is used to publish on Github, where all the code for this website is freely &lt;a href=&#34;https://github.com/nishanttotla/hugo-blog-skeleton&#34;&gt;available&lt;/a&gt;. Please feel free to contribute, via pull requests, issues, or any other way.&lt;/p&gt;
 </description>
     </item>
     
