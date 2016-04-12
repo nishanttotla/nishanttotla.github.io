@@ -23,7 +23,7 @@
 
 &lt;p&gt;Pretty Good Privacy (PGP) was a program created to encrypt/decrypt data back in 1991, and was later incorporated into a company that is now owned by Symantec. Later, an open standard called OpenPGP was created, which contained the formats for keys, encrypted messages, and message signatures defined by PGP. Thus, any other software that implemented the OpenPGP standard could interact with PGP. The GNU Privacy Guard (GPG) is one such implementation. It&amp;rsquo;s open source, part of the GNU project, and has become standard software, powering a huge chunk of encryption on the web.&lt;/p&gt;
 
-&lt;p&gt;The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathemtical operation that&amp;rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &amp;ldquo;sign&amp;rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathematical operation that&amp;rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &amp;ldquo;sign&amp;rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;the-web-of-trust:f04d57afc7abaa02bf8cb3c1249941a9&#34;&gt;The Web of Trust&lt;/h4&gt;
 
@@ -107,7 +107,7 @@ Push an encrypted copy of your new secret key to the Keybase.io server? [Y/n] n
 ▶ INFO   4096-bit RSA key, ID 7EA5781C9B3D0C19, created 2016-04-07
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on &lt;a href=&#34;https://keybase.io/nishanttotla&#34;&gt;my Keybase account&lt;/a&gt;. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on &lt;a href=&#34;https://keybase.io/nishanttotla&#34;&gt;my Keybase account&lt;/a&gt;. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;adding-trust-using-public-accounts:f04d57afc7abaa02bf8cb3c1249941a9&#34;&gt;Adding Trust Using Public Accounts&lt;/h3&gt;
 
@@ -138,7 +138,7 @@ Check Twitter again now? [Y/n] Y
 &lt;li&gt;Verified ownership of this key pair by posting to public websites&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;All of these are connected as shown below&lt;/p&gt;
+&lt;p&gt;All of these are connected as shown below&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:f04d57afc7abaa02bf8cb3c1249941a9:4&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:f04d57afc7abaa02bf8cb3c1249941a9:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/keybase-io/keybase-graph.png&#34; style=&#34;width:100%;&#34;&gt;&lt;/img&gt;
@@ -250,16 +250,20 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
 &lt;li&gt;&lt;a href=&#34;http://security.stackexchange.com/questions/9957/can-i-use-a-private-key-as-a-public-key-and-vice-versa&#34;&gt;Can I use a private key as a public key and vice versa?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Please feel free to suggest more links, or updates to the post!&lt;/p&gt;
+&lt;p&gt;Please feel free to suggest more links, or updates to the post! Also thanks to Riyaz for proofreading!&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;Tamper-evident means that if the message was tampered with along the way, it would be clear because it wouldn&amp;rsquo;t be possible to decrypt it using the matching public or private key.
+&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;This is what is known as asymmetric-key encryption, because there are two different keys that have different roles. There&amp;rsquo;s also symmetric-key encryption, where both parties share one (secret) key, and the same key is used to encrypt and decrypt messages. Symmetric-key encryption is generally faster, but the challenge is sharing the key securely.
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f04d57afc7abaa02bf8cb3c1249941a9:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;Don&amp;rsquo;t do it! There are several concerns, implications, and reasons around why one may want to do it (or not). &lt;a href=&#34;https://github.com/keybase/keybase-issues/issues/160&#34;&gt;This thread&lt;/a&gt; might be helpful.
+&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;Tamper-evident means that if the message was tampered with along the way, it would be clear because it wouldn&amp;rsquo;t be possible to decrypt it using the matching public or private key.
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f04d57afc7abaa02bf8cb3c1249941a9:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:3&#34;&gt;Don&amp;rsquo;t do it! There are several concerns, implications, and reasons around why one may want to do it (or not). &lt;a href=&#34;https://github.com/keybase/keybase-issues/issues/160&#34;&gt;This thread&lt;/a&gt; might be helpful.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f04d57afc7abaa02bf8cb3c1249941a9:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:f04d57afc7abaa02bf8cb3c1249941a9:4&#34;&gt;This graph, called a Merkle tree or hash tree is a tree in which every non-leaf node is labelled with the hash of the labels or values (in case of leaves) of its child nodes. Hash trees are useful because they allow efficient and secure verification of the contents of large data structures. The Keybase graph has bidirectional edges though, so it implements such checking in both directions.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:f04d57afc7abaa02bf8cb3c1249941a9:4&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
