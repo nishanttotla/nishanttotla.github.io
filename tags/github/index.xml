@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on nRT</title>
+    <link>http://nishanttotla.com/tags/github/</link>
+    <description>Recent content in Github on nRT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Apr 2016 14:18:26 -0700</lastBuildDate>
+    <atom:link href="http://nishanttotla.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Signing Git Commits with a GPG Key</title>
+      <link>http://nishanttotla.com/blog/signing-git-commits-gpg/</link>
+      <pubDate>Wed, 13 Apr 2016 14:18:26 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/signing-git-commits-gpg/</guid>
+      <description>
+
+&lt;p&gt;In my &lt;a href=&#34;http://nishanttotla.com/blog/playing-with-keybase-io/&#34;&gt;last post&lt;/a&gt;, I described public key encryption and how you can generate new PGP keys using &lt;a href=&#34;https://keybase.io/&#34;&gt;Keybase&lt;/a&gt;. That was just a start, and PGP keys have several uses. One of the first things I wanted to do was to start signing all my Git commits.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-sign-commits:2956a9e0886a6b1ebeb547ba30f1e87b&#34;&gt;Why Sign Commits?&lt;/h3&gt;
+
+&lt;p&gt;Recent versions of Git (v1.7.9 and above) introduced the ability to sign commits using a GPG key. A signed commit can be verified to make sure that you wrote the code that you claim you did. If you write software as part of a small team where everyone physically meets each other, you likely don&amp;rsquo;t need to do it, but for many open source projects where contributors often never meet physically, &lt;a href=&#34;https://mikegerwitz.com/papers/git-horror-story&#34;&gt;this becomes important&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At Docker, we ask contributors to sign their commits using their email id (the &lt;code&gt;-s&lt;/code&gt; option)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git commit -s -m &amp;quot;commit message&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This doesn&amp;rsquo;t do much, except for adding a &lt;code&gt;Signed-off-by&lt;/code&gt; line to your commit message, picking up your &lt;a href=&#34;https://help.github.com/articles/setting-your-email-in-git/&#34;&gt;name and email&lt;/a&gt; from the Git config.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git log -1
+commit 17cc085744936123a023b1535f9adadd2f180332
+Author: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+Date:   Thu Apr 7 14:17:32 2016 -0700
+
+    commit message
+
+    Signed-off-by: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is obviously easy to fake, and not as trustworthy as signing your commits with a trusted GPG key.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re new to encryption, this guide will hopefully help you get started with signing commits. I use a Mac, so make sure to adapt instructions to your environment. If you already have GPG installed, and a key in your keyring, then you can jump to the second half.&lt;/p&gt;
+
+&lt;h3 id=&#34;setting-up-a-key:2956a9e0886a6b1ebeb547ba30f1e87b&#34;&gt;Setting up a Key&lt;/h3&gt;
+
+&lt;p&gt;This article focuses on exporting your Keybase key to GPG, and moving from there. If you want to generate a key using GPG, there are &lt;a href=&#34;https://help.ubuntu.com/community/GnuPrivacyGuardHowto&#34;&gt;other articles&lt;/a&gt; you might want to read first.&lt;/p&gt;
+
+&lt;p&gt;Install GPG using Homebrew&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew install gpg
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is a fresh install, and we generated a PGP key using Keybase earlier (so it&amp;rsquo;s not part of the GPG keyring). It can be exported easily though&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ keybase pgp export --secret &amp;gt; secret-key.asc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This stores the secret key into the file &lt;code&gt;secret-key.asc&lt;/code&gt;. This is temporary and MUST be deleted as soon as the import to GPG is finished&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gpg --allow-secret-key-import --import secret-key.asc
+gpg: key 9B3D0C19: secret key imported
+gpg: key 9B3D0C19: public key &amp;quot;Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;&amp;quot; imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+gpg:       secret keys read: 1
+gpg:   secret keys imported: 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The import succeeded, &lt;code&gt;9B3D0C19&lt;/code&gt; is the shortened public key signature. Make sure you delete &lt;code&gt;secret-key.asc&lt;/code&gt;. If you type &lt;code&gt;gpg --list-keys&lt;/code&gt;, you should be able to see the key that was just added.&lt;/p&gt;
+
+&lt;h3 id=&#34;adding-the-key-to-git-config:2956a9e0886a6b1ebeb547ba30f1e87b&#34;&gt;Adding the Key to Git Config&lt;/h3&gt;
+
+&lt;p&gt;Git needs to know which key to sign your commits with. Providing that information is dead simple!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git config --global user.signingkey 9B3D0C19
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can also set a project-specific key with the &lt;code&gt;--local&lt;/code&gt; flag instead. That&amp;rsquo;s it! Now you can start signing commits with the &lt;code&gt;-S&lt;/code&gt; flag&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git commit -S -m &amp;quot;commit message&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that &lt;code&gt;-S&lt;/code&gt; is different from &lt;code&gt;-s&lt;/code&gt;. The former signs with a GPG key, the latter only adds a &lt;code&gt;Signed-off-by&lt;/code&gt; line to the commit message. You can certainly use both together.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy to forget &lt;code&gt;-S&lt;/code&gt; each time, but fortunately Git allows you add a setting to always sign commits&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git config --global commit.gpgsign true
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;updating-trust-level-for-the-key:2956a9e0886a6b1ebeb547ba30f1e87b&#34;&gt;Updating Trust Level for the Key&lt;/h3&gt;
+
+&lt;p&gt;If you tried a commit with the new setup, and checked the commit logs, you might see a small issue&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git log --show-signature -1
+commit 302a1df09726ca7387b7b4ce089cfedc5fafef88
+gpg: Signature made Tue Apr 12 16:14:13 2016 PDT using RSA key ID 9B3D0C19
+gpg: Good signature from &amp;quot;Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;&amp;quot;
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 672F 675C 8084 5DE2 C29A  CFD3 7EA5 781C 9B3D 0C19
+Author: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+Date:   Tue Apr 12 16:14:13 2016 -0700
+
+    commit message
+
+    Signed-off-by: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;See the warning? It&amp;rsquo;s because GPG doesn&amp;rsquo;t know if this is a trusted key. That can be fixed by interactively editing they key&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gpg --edit-key 9B3D0C19
+gpg (GnuPG) 1.4.20; Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Secret key is available.
+
+pub  4096R/9B3D0C19  created: 2016-04-08  expires: 2032-04-04  usage: SC
+                     trust: unknown       validity: unknown
+[ unknown] (1). Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+
+gpg&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This opens a console to edit the key. In the console, type &lt;code&gt;trust&lt;/code&gt; and set the key to highest trust level.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gpg&amp;gt; trust
+pub  4096R/9B3D0C19  created: 2016-04-08  expires: 2032-04-04  usage: SC
+                     trust: unknown       validity: unknown
+[ unknown] (1). Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+
+Please decide how far you trust this user to correctly verify other users&#39; keys
+(by looking at passports, checking fingerprints from different sources, etc.)
+
+  1 = I don&#39;t know or won&#39;t say
+  2 = I do NOT trust
+  3 = I trust marginally
+  4 = I trust fully
+  5 = I trust ultimately
+  m = back to the main menu
+
+Your decision? 5
+Do you really want to set this key to ultimate trust? (y/N) y
+
+pub  4096R/9B3D0C19  created: 2016-04-08  expires: 2032-04-04  usage: SC
+                     trust: ultimate      validity: unknown
+[ unknown] (1). Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+Please note that the shown key validity is not necessarily correct
+unless you restart the program.
+
+gpg&amp;gt; quit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To check that it worked&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ gpg --list-keys --list-options show-uid-validity
+/Users/NishantTotla/.gnupg/pubring.gpg
+--------------------------------------
+pub   4096R/9B3D0C19 2016-04-08 [expires: 2032-04-04]
+uid       [ultimate] Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that &lt;code&gt;[ultimate]&lt;/code&gt; now shows up in the details. Try looking at commit logs again, and the problem should be fixed!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git log --show-signature -1
+commit f2de8c24b72c2978126899dbe49cb8c9973ae00b
+gpg: Signature made Tue Apr 12 17:14:00 2016 PDT using RSA key ID 9B3D0C19
+gpg: Good signature from &amp;quot;Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;&amp;quot;
+Author: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+Date:   Tue Apr 12 17:14:00 2016 -0700
+
+    commit message, this time with no warning
+
+    Signed-off-by: Nishant Totla &amp;lt;nishanttotla@gmail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note that it&amp;rsquo;s also possible to &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work&#34;&gt;sign tags and merge commits&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;optional-upload-your-public-key-to-github:2956a9e0886a6b1ebeb547ba30f1e87b&#34;&gt;(Optional) Upload your Public Key to Github&lt;/h3&gt;
+
+&lt;p&gt;Github &lt;a href=&#34;https://github.com/blog/2144-gpg-signature-verification&#34;&gt;recently announced&lt;/a&gt; that they would start showing a &amp;ldquo;Verified&amp;rdquo; tag on commits that were signed with a known GPG key. This requires uploading your public key to Github, so that it can verify signatures. You can do this in account settings&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/keybase-io/settings-list.png&#34; style=&#34;width:20%; float: left&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/keybase-io/github-gpg-key-upload.png&#34; style=&#34;width:76%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;This is the same public key that&#39;s on my Keybase profile.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Github will now show a cool green tag against your signed commits!
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/keybase-io/verified-commits.png&#34; style=&#34;width:90%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;You can click on the tag to check the associated public key.&lt;/figcaption&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;If you faced any issues with these instructions, I&amp;rsquo;d love to hear feedback!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
