@@ -6,8 +6,34 @@
     <description>Recent content in Notes on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 May 2016 12:55:36 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 May 2016 00:05:00 -0700</lastBuildDate>
     <atom:link href="http://nishanttotla.com/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Weekly Log (2016-05-08)</title>
+      <link>http://nishanttotla.com/blog/weekly-log-2016-05-08/</link>
+      <pubDate>Sun, 08 May 2016 00:05:00 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/weekly-log-2016-05-08/</guid>
+      <description>
+
+&lt;h3 id=&#34;articles:a3f8edc431d836d20fafa3ce81f90639&#34;&gt;Articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html&#34;&gt;Implementers, Solvers, and Finders&lt;/a&gt; [rkoutnik.com] &amp;ndash; This article describes three types of roles software engineers can fulfill in a company. Implementers implement solutions handed to them, solvers solve problems handed to them, finders discover those problems. It points out how most engineers only become finders when they choose the management ladder, and how there might still be hope for those who don&amp;rsquo;t want to.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;miscellaneous:a3f8edc431d836d20fafa3ce81f90639&#34;&gt;Miscellaneous&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blockstack.org/&#34;&gt;Blockstack&lt;/a&gt; is the application stack for building decentralized, blockchain-based applications that don&amp;rsquo;t need any servers to operate. Blockstack applications can be built quickly by plugging into Blockstack&amp;rsquo;s services for identity, naming, storage and authentication. I don&amp;rsquo;t quite understand how this works yet, but is very intriguing and will spend time understanding blockchains. &lt;a href=&#34;https://onename.com/&#34;&gt;Onename&lt;/a&gt; seems to be one such service.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://projectinclude.org/&#34;&gt;Project Include&lt;/a&gt; is a cool new initiative by some influential tech ladies to address diversity and inclusion in the tech industry, by creating an opt-in system of accountability for startups. The website also has some nice reading material that I&amp;rsquo;ll gradually make my way through.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=11650721&#34;&gt;One of my research projects&lt;/a&gt; from my first year of grad school made it to the front page of Hacker News for a while on Saturday. It was unexpected, and probably not a big deal, but was cool since I haven&amp;rsquo;t been there before.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>The Brothers, Not the Brotherhood</title>
