@@ -6,8 +6,20 @@
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 May 2016 00:05:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2016 11:21:15 -0700</lastBuildDate>
     <atom:link href="http://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>I Like Watching Hands</title>
+      <link>http://nishanttotla.com/blog/i-like-watching-hands/</link>
+      <pubDate>Thu, 12 May 2016 11:21:15 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/i-like-watching-hands/</guid>
+      <description>&lt;p&gt;I work at cafés a lot, and like observing people. I try to not be creepy, but it&amp;rsquo;s intriguing to note how people do things, imagine what they might be working on, or their story. One thing in particular I&amp;rsquo;ve always loved is to see the act of people packing their bags &amp;ndash; laptop, pens, glasses etc. It&amp;rsquo;s weird, but recently I consciously realized this.&lt;/p&gt;
+
+&lt;p&gt;Then I noticed that I also like to watch hands writing, typing, or performing a number of other complex tasks that are really accessible only to human hands. I&amp;rsquo;m not sure why I&amp;rsquo;m sharing this, but is there anyone else out there who feels the same?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Weekly Log (2016-05-08)</title>
@@ -910,49 +922,6 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
  &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:7a235a22ac4f99f88c5f598d8d355540:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Distributed Systems Resources</title>
-      <link>http://nishanttotla.com/blog/distributed-systems-resources/</link>
-      <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
-      
-      <guid>http://nishanttotla.com/blog/distributed-systems-resources/</guid>
-      <description>
-
-&lt;p&gt;I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.&lt;/p&gt;
-
-&lt;p&gt;In this (dynamically updated) post, I intend to keep track of all good resources I come across in this quest. This includes not only research papers and books, but also good blogs, people to follow and discussions/meetups that could be helpful. It’s overwhelming to begin with, but everything that’s worthwhile has to start somewhere! This is obviously not a complete list, but hopefully the union of content within all entries on the list will be complete.&lt;/p&gt;
-
-&lt;h3 id=&#34;blogs:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Blogs&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://the-paper-trail.org/&#34;&gt;The Paper Trail&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/HenryR&#34;&gt;Henry Robinson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://aphyr.com/posts&#34;&gt;Aphyr&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/aphyr&#34;&gt;Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;books:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Books&lt;/h3&gt;
-
-&lt;h3 id=&#34;research-papers:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Research Papers&lt;/h3&gt;
-
-&lt;h3 id=&#34;people:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;People&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/HenryR&#34;&gt;Henry Robinson&lt;/a&gt;, Cloudera&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/pbailis&#34;&gt;Peter Bailis&lt;/a&gt;, Stanford University&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/aphyr&#34;&gt;Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;misc:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Misc&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Papers We Love [&lt;a href=&#34;https://twitter.com/papers_we_love&#34;&gt;Twitter&lt;/a&gt;] [&lt;a href=&#34;http://www.meetup.com/papers-we-love-too/&#34;&gt;San Francisco&lt;/a&gt;] is a cool meetup that discusses research papers, with chapters around the world.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;want-to-contribute-to-this-post:dc4816fae14320f2f4f74f4d0f551d32&#34;&gt;Want to Contribute to this post?&lt;/h3&gt;
-
-&lt;p&gt;Please feel free to make suggestions or &lt;a href=&#34;https://github.com/nishanttotla/hugo-blog-skeleton/blob/master/content/articles/distributed-systems-resources.md&#34;&gt;submit a PR&lt;/a&gt;!&lt;/p&gt;
 </description>
     </item>
     
