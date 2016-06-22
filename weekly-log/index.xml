@@ -6,8 +6,42 @@
     <description>Recent content in Weekly-log on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jun 2016 08:54:04 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jun 2016 18:20:16 -0700</lastBuildDate>
     <atom:link href="http://nishanttotla.com/weekly-log/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Weekly Log (2016-06-19)</title>
+      <link>http://nishanttotla.com/blog/weekly-log-2016-06-19/</link>
+      <pubDate>Sun, 19 Jun 2016 18:20:16 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/weekly-log-2016-06-19/</guid>
+      <description>
+
+&lt;p&gt;The last two weeks have been quite busy, leading up to &lt;a href=&#34;http://2016.dockercon.com/&#34;&gt;DockerCon&lt;/a&gt; and travel. I haven&amp;rsquo;t had time to publish, so I&amp;rsquo;m merging the log from the last two weeks.&lt;/p&gt;
+
+&lt;h3 id=&#34;articles:a190b7214091234985f457ce3847cb0d&#34;&gt;Articles&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.newyorker.com/culture/culture-desk/how-silicon-valley-nails-silicon-valley&#34;&gt;How &amp;ldquo;Silicon Valley&amp;rdquo; Nails Silicon Valley&lt;/a&gt; [The New Yorker] &amp;ndash; A lot of amazing behind the scenes info about how Silicon Valley (the show) is created. And in some cases, real life is even weirder than the show, even though the show is meant to be a caricature of the real thing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.buzzfeed.com/devangp/aavite-rovay-nai?utm_term=.wy3e0EKJo#.eiYYn8x4&#34;&gt;Indians are never taught to talk to their parents as adults, and that’s a problem&lt;/a&gt; [BuzzFeed] &amp;ndash; Continuing the series of some genuinely good articles on BuzzFeed, this one focuses on how interactions between Indian kids and parents are comically shallow on the emotional front, especially when the kids grow up. While this has not entirely been my experience, I can relate to some of it, and definitely have friends who can relate to all of it. It also appears that the original article appeared on a blog, then Reddit, then here, but I haven&amp;rsquo;t tried to track down the source.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;movies-and-tv-shows:a190b7214091234985f457ce3847cb0d&#34;&gt;Movies and TV Shows&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.imdb.com/title/tt2575988/&#34;&gt;Silicon Valley&lt;/a&gt; &amp;ndash; I first watched a bit of the show when it first came out, but didn&amp;rsquo;t find it quite appealing. But after having worked at a software startup for a few months now, I can appreciate the satire and humor much better. It&amp;rsquo;s crude, brash, over the top, and does a great job at making fun of the seemingly strange culture that pervades Silicon Valley. If you find an aspect of the show offensive or peculiar (eg. overt sexism, racism, conceit, etc.), then remember that the real thing is even weirder.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.imdb.com/title/tt4044364/&#34;&gt;Citizenfour&lt;/a&gt; &amp;ndash; A thrilling documentary about Edward Snowden&amp;rsquo;s correspondence with the journalists who helped him break the story on government surveillance. It features all the real people involved.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;miscellaneous:a190b7214091234985f457ce3847cb0d&#34;&gt;Miscellaneous&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bankofamerica.com/privacy/accounts-cards/shopsafe.go&#34;&gt;ShopSafe&lt;/a&gt; &amp;ndash; Bank of America offers a program where you can create a temporary credit card online, that links to an existing card you own (one level of indirection). You can also set an expiry date and maximum (possibly recurring) limit on the card! This is extremely useful in places where you don&amp;rsquo;t trust the vendor enough to provide your real credit card number. I&amp;rsquo;m going to use this extensively now.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Weekly Log (2016-06-05)</title>
