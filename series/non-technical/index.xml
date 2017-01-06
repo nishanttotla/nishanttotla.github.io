@@ -6,8 +6,200 @@
     <description>Recent content in Non Technical on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Nov 2016 03:32:11 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 31 Dec 2016 01:20:02 +0530</lastBuildDate>
     <atom:link href="http://nishanttotla.com/series/non-technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>2016 Year in Review</title>
+      <link>http://nishanttotla.com/blog/2016-year-in-review/</link>
+      <pubDate>Sat, 31 Dec 2016 01:20:02 +0530</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/2016-year-in-review/</guid>
+      <description>
+
+&lt;p&gt;Precisely a year ago, I went to &lt;a href=&#34;http://nishanttotla.com/blog/off-to-hawaii&#34;&gt;Hawaii&lt;/a&gt; to try and
+regain some sanity after what was a terrible 2015.
+It offered little apart from endless pain, suffering, depression,
+lack of community, and an uncontrollable feeling of helplessness.
+So much so that the second half of the Hawaii trip was full of
+panic attacks and attempts to cut the trip short. I was due to start a new job upon returning, and my Master&amp;rsquo;s thesis was still pending. I had no idea how I was going
+to deal after getting back, manage personal relationships, and stop feeling
+that life was pointless every other day&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fb87175bd9d8d1c271c0241c5bfcdf17:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fb87175bd9d8d1c271c0241c5bfcdf17:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;2016 for me was a story in two parts &amp;ndash; pre-September, and post. The first part was
+incredibly hard with a few positive blips, while the second was rosy,
+with renewed hope going into 2017. I&amp;rsquo;m going to avoid any mention of politics
+in this post, even though the events of the year deeply affected me on a personal level.
+Although 2016 was painful to live through, it will be memorable. This is a feeling
+I had failed to experience for several years now.&lt;/p&gt;
+
+&lt;h3 id=&#34;master-s-thesis:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Master&amp;rsquo;s Thesis&lt;/h3&gt;
+
+&lt;p&gt;A big part of my woes was my Master&amp;rsquo;s thesis, which had dragged out for too long. After
+failing to finish it at the end of 2015 and getting on filing fee status&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fb87175bd9d8d1c271c0241c5bfcdf17:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fb87175bd9d8d1c271c0241c5bfcdf17:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, expecting
+to get done with it by February. But lack of progress for extended periods (in part due
+to severe depression), coupled with a full-time job, and spending most of my free time
+struggling with the thesis was a recipe for disaster. I failed to finish it by the May
+deadline, had to register for the summer session (and pay nearly $2000 for it). Despite
+finally managing to make good progress by the end of July and get a draft ready,
+my committee refused to sign it, and the EECS department showed an immense lack
+of desire to help me out. This left me looking at a $16000 tuition payment for the Fall
+semester. I fought the bureaucracy and it was only in mid-November that I managed
+to get the thesis submitted, in time to extend my immigration status, without which
+I&amp;rsquo;d be forced to leave the country. The details of that
+will be the subject of another post, but if there&amp;rsquo;s a lesson to be learned, it is that
+&lt;em&gt;the department is not your friend&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/commencement.gif&#34; style=&#34;width:70%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;Commencement - Pradeep walked on the same day&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Anyhow, after over four years of struggle at UC Berkeley, I&amp;rsquo;m finally out of that
+depressing environment and looking at better things, with at least a degree to show.
+I even got to walk for commencement!&lt;/p&gt;
+
+&lt;h3 id=&#34;health:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Health&lt;/h3&gt;
+
+&lt;p&gt;On this front, the year was mostly bad. I&amp;rsquo;ve mentioned depression a few times
+already, but 2016 was remarkable because I&amp;rsquo;m
+finally ending a year on a reasonably good note. If the first half was about
+lack of motivation, often to the extent of death ideation, then the second half
+presented a renewed faith in my own abilities, along with a future that I at least
+want to consider. Thanks to input from my girlfriend and some close friends, I also
+got the opportunity to deeply introspect and work on personal flaws that have
+always caused me great anxiety. Health issues for someone very close to me
+were also a factor in an utterly disappointing time for the first part of 2016.&lt;/p&gt;
+
+&lt;p&gt;Apart from that, I continued to work on my chronic physical injuries, with the hope of
+one day getting back to endurance running and biking. I have a pretty solid understanding
+of shoulder and hip anatomy as a result, and have tried literally every rehab technique
+out there. Hopefully 2017 is the year I get a breakthrough.&lt;/p&gt;
+
+&lt;h3 id=&#34;work:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Work&lt;/h3&gt;
+
+&lt;p&gt;I started working at Docker as a software engineer in early 2016.
+I recovered some of the productivity I lost during grad
+school, and got several new opportunities and experiences along the way. For one,
+I learned a lot about working on open-source projects.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/github.png&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;My GitHub profile has never looked greener&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Second, I got to &lt;a href=&#34;http://nishanttotla.com/blog/conference-travel-2016&#34;&gt;travel to multiple conferences&lt;/a&gt;
+and give talks. These were among the primary reasons I had joined Docker in the first place.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/talk.jpg&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;First conference talk, at ContainerCamp 2016, London&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There were slow periods too, but the year was overall a positive change on the work front.&lt;/p&gt;
+
+&lt;h3 id=&#34;travel:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Travel&lt;/h3&gt;
+
+&lt;p&gt;Despite all problems, 2016 was one of the best years for travel. Traveling was
+easier since I had more money, opportunities, and time (post September).
+I did make several trips.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Boulder and Rocky Mountain National Park, Colorado (May) for a long weekend&lt;/li&gt;
+&lt;li&gt;Seattle and Olympic National Park, Washington (June) for DockerCon, extended the trip by a few days&lt;/li&gt;
+&lt;li&gt;Crater Lake National Park, Oregon (July) for a random weekend&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/colorado.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/craterlake.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;White snow at 12,000ft in Rocky Mountain National Park, and deep blue water at Crater Lake&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;London, UK (September) for ContainerCamp, spent 4 extra days exploring the city&lt;/li&gt;
+&lt;li&gt;St. Louis, Missouri (September) for Strange Loop&lt;/li&gt;
+&lt;li&gt;Bike camping trip to Samuel P Taylor State Park (September)&lt;/li&gt;
+&lt;li&gt;Berlin, Germany (October) for the Docker Distributed Systems Summit, plus 3 extra days to explore the city&lt;/li&gt;
+&lt;li&gt;Mendocino, California (October) for a relaxing weekend getaway&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/london.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/bikecamping.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/berlin.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/mendocino.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;London, start of the bike camping trip in SF, festival of lights at the Berliner Dom, California coastline in Mendocino&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Portland, Oregon (November) for a friend&amp;rsquo;s bachelor trip weekend&lt;/li&gt;
+&lt;li&gt;Maui, Hawaii (November) for the Thanksgiving break&lt;/li&gt;
+&lt;li&gt;Tokyo, Japan (December) for vacation, and (finally) a new country for 2016&lt;/li&gt;
+&lt;li&gt;India (December), also for vacation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/portland.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/maui.jpg&#34; style=&#34;width:40%;&#34;&gt;&lt;/img&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/tokyo.jpg&#34; style=&#34;width:80%;&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;Hipster Indian food in Portland, stunning ridges in Maui, street market in Tokyo&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In summary, this includes 3 international trips, 4 national parks, and several new
+cities. I also spend a lot of time exploring locally in Oakland and San Francisco.
+Up until the late May trip to Colorado, the only travel I had done was a weekend
+trip to Seattle in March, but I&amp;rsquo;m glad with the way things turned out in the second
+half of the year&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:fb87175bd9d8d1c271c0241c5bfcdf17:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:fb87175bd9d8d1c271c0241c5bfcdf17:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;other-highlights:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Other Highlights&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I fulfilled a long standing dream of watching Arsenal play at the Emirates stadium. During my trip to London in September, I managed to get a ticket to the Arsenal vs Southampton game and thoroughly enjoyed it. Interestingly, just the month before, I&amp;rsquo;d watched the team play MLS All-Stars during their US tour but had no idea I&amp;rsquo;d actually be traveling to London soon after!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/2016-year-in-review/emirates.jpg&#34;&gt;&lt;/img&gt;
+    &lt;figcaption&gt;Arsenal vs Southampton at the Emirates Stadium in September&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I wrote a short Docker tutorial for &lt;a href=&#34;http://www.creativebloq.com/net-magazine&#34;&gt;Netmag&lt;/a&gt;, a UK magazine. This is the first time I&amp;rsquo;ve done something like this, and I&amp;rsquo;m pretty excited! The issue goes on sale in late January 2017.&lt;/li&gt;
+&lt;li&gt;Some close friends got married (and several others got engaged). Wedding season was a lot of fun.&lt;/li&gt;
+&lt;li&gt;After several years of being indifferent, I celebrated my birthday (in difficult circumstances too, following my thesis rejection!).&lt;/li&gt;
+&lt;li&gt;Vasuki, Vaishnavi, and I organized a Bollywood costume themed Diwali party at our apartment, the first such party I&amp;rsquo;ve been part of organizing!&lt;/li&gt;
+&lt;li&gt;My adventure of the year was jumping into the freezing cold water of Crater Lake, after failing to carry swimming shorts but judging that the opportunity was not to be missed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet tw-align-center&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;After some hiking on Wizard Island, I found the courage to jump into the frigid waters of Crater Lake! &lt;a href=&#34;https://t.co/8Z2L1XKchn&#34;&gt;pic.twitter.com/8Z2L1XKchn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Traveler Boy (@nrt_travel) &lt;a href=&#34;https://twitter.com/nrt_travel/status/754849467581341696&#34;&gt;July 18, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I made the &lt;a href=&#34;http://nishanttotla.com/blog/why-i-moved-to-static-website&#34;&gt;current version of my website and blog&lt;/a&gt; this year. It was a lot of work, but has been a net positive effort because it encouraged me to write more easily and frequently (hopefully more next year).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;looking-at-2017:fb87175bd9d8d1c271c0241c5bfcdf17&#34;&gt;Looking at 2017&lt;/h3&gt;
+
+&lt;p&gt;I have a private list of specific goals to pursue to next year, but the most
+important thing I&amp;rsquo;m looking forward to is settling down. For
+too long now, life has felt like someone else in the driver&amp;rsquo;s seat, and I want to
+end that. Hopefully, that will free up some time to devote to things I actually care
+about.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:fb87175bd9d8d1c271c0241c5bfcdf17:1&#34;&gt;The irony here is that I&amp;rsquo;m still pretty privileged and &amp;ldquo;successful&amp;rdquo;, and that only adds up to a lot of guilt. One of my major goals is to get over this chronic depression.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fb87175bd9d8d1c271c0241c5bfcdf17:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:fb87175bd9d8d1c271c0241c5bfcdf17:2&#34;&gt;A special kind of student registration that you can avail when only a thesis is due, and all course requirements are done. The upside is that you&amp;rsquo;re no longer required to pay tuition and can get a job.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fb87175bd9d8d1c271c0241c5bfcdf17:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:fb87175bd9d8d1c271c0241c5bfcdf17:3&#34;&gt;It&amp;rsquo;s a curious thing how despite being utterly depressed for long periods, my travelogue is pretty elaborate. It was more chance than anything that I managed to cover as much ground as I did, but satisfying that I took the opportunities that came my way. When I tried to reach out to a friend saying I was really sad, he mentioned that&amp;rsquo;s not at all how my Instagram profile looked like. Now you have another example of the pain hidden behind glittery social media profiles.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:fb87175bd9d8d1c271c0241c5bfcdf17:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Conference Travel in 2016</title>
@@ -172,7 +364,7 @@ probably with a little more focus.&lt;/p&gt;
 &lt;p&gt;&lt;blockquote class=&#34;twitter-tweet tw-align-center&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Goodbye Hawaii, it&amp;#39;s been a meaningful trip! Time to go back to normal life and start afresh. &lt;a href=&#34;https://t.co/NzS1Pnftk4&#34;&gt;pic.twitter.com/NzS1Pnftk4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Traveler Boy (@nrt_travel) &lt;a href=&#34;https://twitter.com/nrt_travel/status/682771096320409602&#34;&gt;January 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;There were a few other short trips too, but not nearly enough! The overwhelming guilt that comes from not being productive is a big enemy of travel, and I’ve been trying hard to control it. Still, I’m proud and happy for the travel I managed to do, but looking forward to all the more that I will do in 2016.&lt;/p&gt;
+&lt;p&gt;There were a few other short trips too, but not nearly enough! The overwhelming guilt that comes from not being productive is a big adversary of travel, and I’ve been trying hard to control it. Still, I’m proud and happy for the travel I managed to do, but looking forward to all the more that I will do in 2016.&lt;/p&gt;
 
 &lt;h3 id=&#34;health:b28868909f74bdd4f426ebee08db720a&#34;&gt;Health&lt;/h3&gt;
 
