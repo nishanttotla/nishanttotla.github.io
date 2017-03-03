@@ -6,8 +6,31 @@
     <description>Recent content in Notes on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2017 15:09:14 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Feb 2017 22:44:06 -0800</lastBuildDate>
     <atom:link href="http://nishanttotla.com/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deciding to Stop</title>
+      <link>http://nishanttotla.com/blog/deciding-to-stop/</link>
+      <pubDate>Sun, 12 Feb 2017 22:44:06 -0800</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/deciding-to-stop/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a slow reader with a short attention span, but I&amp;rsquo;d like to read a lot more books
+than I currently manage. So I&amp;rsquo;m like the armchair analyst who dreams of changing the
+world &amp;ndash; tons of ambition, but lack of skills (and possibly desire?). A recurrent
+problem for me has been that I start some books, partly or nearly finish them, have
+no interest in continuing, but can&amp;rsquo;t start other books until I finish the earlier ones.
+Obviously there&amp;rsquo;s merit to sticking it out, but more often than not, time could be better
+spent reading books out of which I could derive most value, rather than struggle with ones
+that are neither adding much value nor getting done (I&amp;rsquo;m looking at you
+&lt;a href=&#34;https://www.goodreads.com/book/show/19438058-zen-and-the-art-of-motorcycle-maintenance&#34;&gt;Robert Pirsig&lt;/a&gt;). What I&amp;rsquo;m suggesting isn&amp;rsquo;t
+groundbreaking, but it&amp;rsquo;s important to remember &amp;ndash; the guilt and pressure of finishing
+a book is a strong deterrent to moving on and reading more books that you can actually
+finish. The same applies to TV shows, jobs, relationships (but we won&amp;rsquo;t go there).
+It&amp;rsquo;s tempting to simply view all of this as the sunk cost fallacy, but stating out
+the special case is always useful. That&amp;rsquo;s why we have the &lt;a href=&#34;https://www.theguardian.com/books/shortcuts/2014/jul/07/hawking-index-give-up-on-books-capital-fifty-shades&#34;&gt;Hawking Index&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Adronitis</title>
@@ -78,6 +101,12 @@ I&amp;rsquo;ve strongly felt about making friends lately.&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;I strongly believe that it&amp;rsquo;s largely your responsibility to ensure that you&amp;rsquo;re learning, and not succumbing to the pressure to show progress. The reason I liked his point of view was because it&amp;rsquo;s a good attitude to have, and helps to set expectations. In my own work, I have certainly written code I didn&amp;rsquo;t fully understand, had it compile and pass all tests. It&amp;rsquo;s easy to feel accomplished doing that, but important to remember it&amp;rsquo;s not the end goal.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll admit that this is very clearly an entitled attitude that software
+engineers can afford to have due to abundance of jobs. Even otherwise, there are times when
+the right balance means getting things done without having the luxury of learning.
+Still, adopting the above attitude can serve as a good way to strongly push the
+individual and help focus whenever possible.&lt;/p&gt;
 </description>
     </item>
     
