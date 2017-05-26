@@ -6,8 +6,43 @@
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Apr 2017 15:24:19 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 May 2017 23:03:38 -0700</lastBuildDate>
     <atom:link href="http://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Black Mirror</title>
+      <link>http://nishanttotla.com/blog/black-mirror/</link>
+      <pubDate>Thu, 25 May 2017 23:03:38 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/black-mirror/</guid>
+      <description>&lt;p&gt;Lately, I&amp;rsquo;ve been exploring interesting neighborhoods in San Francisco by leisurely
+walking through them. So far these jaunts have been focused on the Mission and Castro,
+with the occasional venture into Haight-Ashbury or Hayes Valley. A couple of weeks
+ago, I visited &lt;a href=&#34;https://dijitalfix.com/&#34;&gt;Dijital Fix&lt;/a&gt;, an electronics+design store on
+Valencia Street. It had some pretty retro electronics and other cool things. I clicked
+this photo on the way out, and only later realized why I liked it so much.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img data-action=&#34;zoom&#34; src=&#34;http://nishanttotla.com/images/black-mirror.jpg&#34; style=&#34;width:70%;&#34;&gt;&lt;/img&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I like to call it &lt;em&gt;Black Mirror&lt;/em&gt;, for more than one reason. It literally is a black
+colored mirror to begin with, so nothing special there. But for those familiar with
+the TV show of the same name that is &amp;ldquo;centred around dark and satirical themes that
+examine modern society, particularly with regard to the unanticipated consequences of
+new technologies&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:42b346f3c66eb29c697d52cbcfeda0b3:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:42b346f3c66eb29c697d52cbcfeda0b3:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, there&amp;rsquo;s more. As I hold up the phone to get a selfie, I&amp;rsquo;ve put
+myself up for the world to see. I&amp;rsquo;m On Air.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:42b346f3c66eb29c697d52cbcfeda0b3:1&#34;&gt;Quoting Wikipedia there.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:42b346f3c66eb29c697d52cbcfeda0b3:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>April 2017</title>
@@ -1124,86 +1159,6 @@ probably with a little more focus.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.bankofamerica.com/privacy/accounts-cards/shopsafe.go&#34;&gt;ShopSafe&lt;/a&gt; &amp;ndash; Bank of America offers a program where you can create a temporary credit card online, that links to an existing card you own (one level of indirection). You can also set an expiry date and maximum (possibly recurring) limit on the card! This is extremely useful in places where you don&amp;rsquo;t trust the vendor enough to provide your real credit card number. I&amp;rsquo;m going to use this extensively now.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>May 2016</title>
-      <link>http://nishanttotla.com/blog/monthly-2016-05/</link>
-      <pubDate>Tue, 31 May 2016 13:40:05 -0700</pubDate>
-      
-      <guid>http://nishanttotla.com/blog/monthly-2016-05/</guid>
-      <description>
-
-&lt;h3 id=&#34;articles:934191705702a94fc45e2007e1bfaf5f&#34;&gt;Articles&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html&#34;&gt;Implementers, Solvers, and Finders&lt;/a&gt; [rkoutnik.com] &amp;ndash; This article describes three types of roles software engineers can fulfill in a company. Implementers implement solutions handed to them, solvers solve problems handed to them, finders discover those problems. It points out how most engineers only become finders when they choose the management ladder, and how there might still be hope for those who don&amp;rsquo;t want to.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@lydiapolgreen/why-people-pay-to-read-the-new-york-times-60720880e707#.n7zkrugsv&#34;&gt;Why people pay to read The New York Times&lt;/a&gt; [Medium] &amp;ndash; This is a brilliant point of view, and one that fully aligns with how I think of journalism in the digital age. At a time when Facebook and social media have immense control over platforms, there is still a lot of value in good journalism.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://gizmodo.com/former-facebook-workers-we-routinely-suppressed-conser-1775461006&#34;&gt;Former Facebook Workers: We Routinely Suppressed Conservative News&lt;/a&gt; [Gizmodo] &amp;ndash; I&amp;rsquo;ve long believed that the algorithms run by giant tech companies have immense power when it comes to swaying public opinion, even if inadvertently. But if there&amp;rsquo;s intent, things can get really tricky. It&amp;rsquo;s okay to have biases in news reporting, and be explicit about them, but for people to believe that the content they read online is organic is dangerous if it&amp;rsquo;s false. When viewed in conjunction with the above article, a few people at a few companies controlling the most used information channels sounds very dystopian, especially since accountability is suspect. Key lesson though? Get your news from multiple sources!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://zachholman.com/posts/the-new-10-year-vesting-schedule&#34;&gt;The New 10-Year Vesting Schedule&lt;/a&gt; [zachholman.com] &amp;ndash; A timely and appropriate rant about how the rules around stock options are created such that regular startup employees have the least flexibility and control over how they can retain their hard-earned share in the company, while investors and founders get away with much more.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.buzzfeed.com/sonaligupta2/single-female-disabled-apps-are-saving-me-from-inaccessible?utm_term=.ugdnMXv5W#.vge5kwLAl&#34;&gt;Single With A Disability: Apps Are Saving Me From Awkward Dates And Awful Rishtas&lt;/a&gt; [BuzzFeed] &amp;ndash; A personal account of a woman with muscular dystrophy regarding her experience with dating and arranged marriage in India. Finding an accepting partner can be extremely challenging as a disabled person, and this is a rare story on the topic. I wish it were longer, but good read nonetheless.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nytimes.com/2016/05/01/fashion/modern-love-netflix-relationship.html&#34;&gt;The Entire Netflix History of Us&lt;/a&gt; [The New York Times] &amp;ndash; A story of when a couple broke up and their shared Netflix account was the only remaining connection between them. I&amp;rsquo;m a fan of the &lt;a href=&#34;http://www.nytimes.com/column/modern-love&#34;&gt;Modern Love&lt;/a&gt; columns on NYT, because they explore the idea of love at levels and in contexts that are extremely thought-provoking. In many cases, they bring me agonizingly close to feeling painful emotions, but that is probably why I read them.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.nytimes.com/2016/05/16/world/americas/dying-infants-and-no-medicine-inside-venezuelas-failing-hospitals.html&#34;&gt;Dying Infants and No Medicine: Inside Venezuela’s Failing Hospitals&lt;/a&gt; [The New York Times] &amp;ndash; I had no idea things were so bad in Venezuela. This article reports a disastrous failure of infrastructure in the country, under political instability and poor economic planning. In particular, hospitals seem to be very badly affected leading to growing mortality rates.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.vox.com/2016/5/26/11790878/google-oracle-fight-explained&#34;&gt;Why Google&amp;rsquo;s victory in a copyright fight with Oracle is a big deal&lt;/a&gt; &amp;ndash; A short summary of the background between the Google vs. Oracle case that&amp;rsquo;s been all over the news. This includes the current status of the case and legal implications of either party winning. A good start if you know absolutely nothing.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;music:934191705702a94fc45e2007e1bfaf5f&#34;&gt;Music&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Most of the good music I&amp;rsquo;ve recently discovered has been from Coke Studio, thanks to Soundcloud. Tum Naraz Ho is a soothing melody about the time when a person&amp;rsquo;s lover is upset with them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168257758&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Shakar Wandaan Re is a very energetic composition with catchy and playful lyrics.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/171491148&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Shakar Wandaan Re is also a song from the Pakistani movie called &lt;em&gt;Ho Mann Jahaan&lt;/em&gt;. The movie version is more of a dance number, but still extremely likable and funky.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;166&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240416001&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&#34;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&#34;travel:934191705702a94fc45e2007e1bfaf5f&#34;&gt;Travel&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I visited Colorado this month! For more than two years now, I&amp;rsquo;ve really wanted to go there and never managed to. This time though, I took the initiative before a long weekend and finally did it! I also traveled with friends, something I don&amp;rsquo;t do quite often.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;miscellaneous:934191705702a94fc45e2007e1bfaf5f&#34;&gt;Miscellaneous&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blockstack.org/&#34;&gt;Blockstack&lt;/a&gt; is the application stack for building decentralized, blockchain-based applications that don&amp;rsquo;t need any servers to operate. Blockstack applications can be built quickly by plugging into Blockstack&amp;rsquo;s services for identity, naming, storage and authentication. I don&amp;rsquo;t quite understand how this works yet, but is very intriguing and will spend time understanding blockchains. &lt;a href=&#34;https://onename.com/&#34;&gt;Onename&lt;/a&gt; seems to be one such service.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://projectinclude.org/&#34;&gt;Project Include&lt;/a&gt; is a cool new initiative by some influential tech ladies to address diversity and inclusion in the tech industry, by creating an opt-in system of accountability for startups. The website also has some nice reading material that I&amp;rsquo;ll gradually make my way through.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=11650721&#34;&gt;One of my research projects&lt;/a&gt; from my first year of grad school made it to the front page of Hacker News for a while on Saturday. It was unexpected, and probably not a big deal, but was cool since I haven&amp;rsquo;t been there before.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.bayareadrama.company/the-domestic-crusaders&#34;&gt;The Domestic Crusaders&lt;/a&gt; was a play I watched on Saturday. This was Bay Area Drama Company&amp;rsquo;s version of the original play by Wajahat Ali, focusing on the Muslim immigrant experience in post &lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt; America.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.twitter.com/2016/track-the-pulse-of-the-us-presidential-race&#34;&gt;Track the pulse of the US presidential race&lt;/a&gt; [Twitter Blog] &amp;ndash; Twitter often makes really neat visualizations using tweet data. This one explores &amp;ldquo;how the Twitter buzz about each candidate has shifted week over week since September&amp;rdquo;. Look &lt;a href=&#34;https://interactive.twitter.com/&#34;&gt;here&lt;/a&gt; for more!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You should follow &lt;a href=&#34;https://twitter.com/jaythenerdkid&#34;&gt;Aaminah&lt;/a&gt; on Twitter, she often does very intriguing tweetstorms. This month she&amp;rsquo;s done some amazing ones about mental illness. If you&amp;rsquo;ve experienced mental illness, or know someone who has, or just want to be helpful, read these: &lt;a href=&#34;https://twitter.com/jaythenerdkid/status/730131499262062592&#34;&gt;one&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/jaythenerdkid/status/730133438460727296&#34;&gt;two&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/jaythenerdkid/status/730420676570566656&#34;&gt;three&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/jaythenerdkid/status/730434924654804992&#34;&gt;four&lt;/a&gt;. Remember to scroll up and wait for all tweets to load.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;I attended &lt;a href=&#34;https://twitter.com/nishanttotla/status/732313216768843776&#34;&gt;commencement&lt;/a&gt; this month as a Masters student. It was fun, especially since I couldn&amp;rsquo;t attend the one after college.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/hashtag/MyDepressionLooksLike?src=hash&#34;&gt;#MyDepressionLooksLike&lt;/a&gt; seemed to be trending on Twitter for a little while, with people describing their experience of depression. It was strangely reassuring.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.getairhelp.com/en/&#34;&gt;AirHelp&lt;/a&gt; &amp;ndash; A website that helps you get rightful compensation when your flight is delayed.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/blog/2176-diversity-and-inclusion-at-github&#34;&gt;Diversity and Inclusion at GitHub&lt;/a&gt; &amp;ndash; GitHub faced public criticism over harassment and poor work culture within the company, but have since worked hard to pull their act together. Good to see such a turnaround.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
