@@ -133,13 +133,13 @@
 
 <p>I have to admit, despite having spent so many years studying Computer Science, my understanding of security and modern best practices is pretty shabby. I&rsquo;m fixing that now, and it was a perfect opportunity when a friend invited me to try <a href="https://keybase.io/">keybase.io</a>. It&rsquo;s still an Alpha product, and invite-only (or sign up and join the waitlist). I learned new things while trying it out, and wanted to write about it.</p>
 
-<h3 id="a-primer-on-pgp-gpg-encryption:f04d57afc7abaa02bf8cb3c1249941a9">A Primer on PGP/GPG encryption</h3>
+<h3 id="a-primer-on-pgp-gpg-encryption">A Primer on PGP/GPG encryption</h3>
 
 <p>Pretty Good Privacy (PGP) was a program created to encrypt/decrypt data back in 1991, and was later incorporated into a company that is now owned by Symantec. Later, an open standard called OpenPGP was created, which contained the formats for keys, encrypted messages, and message signatures defined by PGP. Thus, any other software that implemented the OpenPGP standard could interact with PGP. The GNU Privacy Guard (GPG) is one such implementation. It&rsquo;s open source, part of the GNU project, and has become standard software, powering a huge chunk of encryption on the web.</p>
 
-<p>The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathematical operation that&rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &ldquo;sign&rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you<sup class="footnote-ref" id="fnref:f04d57afc7abaa02bf8cb3c1249941a9:1"><a rel="footnote" href="#fn:f04d57afc7abaa02bf8cb3c1249941a9:1">1</a></sup>. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident<sup class="footnote-ref" id="fnref:f04d57afc7abaa02bf8cb3c1249941a9:2"><a rel="footnote" href="#fn:f04d57afc7abaa02bf8cb3c1249941a9:2">2</a></sup>.</p>
+<p>The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathematical operation that&rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &ldquo;sign&rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>.</p>
 
-<h4 id="the-web-of-trust:f04d57afc7abaa02bf8cb3c1249941a9">The Web of Trust</h4>
+<h4 id="the-web-of-trust">The Web of Trust</h4>
 
 <p>Some important questions now need to be asked of OpenPGP compatible systems &ndash; how sure are you that the person who sent you an encrypted message actually holds the private key that signed it? Or how do you know that the public key you used to encrypt an important message doesn&rsquo;t actually belong to an impostor? The point is that it&rsquo;s not enough to have encryption, you also need to be able to trust ownership of keys.</p>
 
@@ -147,7 +147,7 @@
 
 <p>This is an oversimplification, and there are many interesting technical details which I encourage you to read online. Additionally, PGP and GPG have had interesting histories, which are also worth reading.</p>
 
-<h3 id="so-what-is-keybase:f04d57afc7abaa02bf8cb3c1249941a9">So What is Keybase?</h3>
+<h3 id="so-what-is-keybase">So What is Keybase?</h3>
 
 <p>Keybase is a trusted database for public keys, where you can list your public encryption key, so that anyone wishing to send you an encrypted message can use it to do so. Even though public key encryption has been around for a while, it has usually been confined to security experts and enthusiasts, partly because most tools/clients have been notoriously <a href="https://ariejan.net/2014/04/03/pretty-difficult-privacy/">hard to use</a>, and mainstream software hasn&rsquo;t really integrated encryption as a first-class feature. Keybase is aiming to solve this problem by making it easy to generate and manage keys and devices, essentially bringing encryption to the masses.</p>
 
@@ -160,7 +160,7 @@
 
 <p>Keybase now also allows you to manage multiple devices and them share keys, without actually having to move private keys around directly. Finally, the recently released <a href="https://keybase.io/docs/kbfs">Keybase File System</a> allows you to create public, signed directories and securely share files.</p>
 
-<h3 id="getting-started:f04d57afc7abaa02bf8cb3c1249941a9">Getting Started</h3>
+<h3 id="getting-started">Getting Started</h3>
 
 <p>The signup process is straightforward, you create an account on the website. From that point, you can do all of the following operations using the website, the official Keybase command line client, or your own GPG setup. I chose the second one. Installing the client is easy using Homebrew.</p>
 
@@ -221,9 +221,9 @@ Push an encrypted copy of your new secret key to the Keybase.io server? [Y/n] n
 ▶ INFO   4096-bit RSA key, ID 7EA5781C9B3D0C19, created 2016-04-07
 </code></pre>
 
-<p>Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on <a href="https://keybase.io/nishanttotla">my Keybase account</a>. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server<sup class="footnote-ref" id="fnref:f04d57afc7abaa02bf8cb3c1249941a9:3"><a rel="footnote" href="#fn:f04d57afc7abaa02bf8cb3c1249941a9:3">3</a></sup>.</p>
+<p>Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on <a href="https://keybase.io/nishanttotla">my Keybase account</a>. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup>.</p>
 
-<h3 id="adding-trust-using-public-accounts:f04d57afc7abaa02bf8cb3c1249941a9">Adding Trust Using Public Accounts</h3>
+<h3 id="adding-trust-using-public-accounts">Adding Trust Using Public Accounts</h3>
 
 <p>So far, nobody has reason to trust the public key on my Keybase profile. Let&rsquo;s use my Twitter account to remedy that.</p>
 
@@ -252,7 +252,7 @@ Check Twitter again now? [Y/n] Y
 <li>Verified ownership of this key pair by posting to public websites</li>
 </ul>
 
-<p>All of these are connected as shown below<sup class="footnote-ref" id="fnref:f04d57afc7abaa02bf8cb3c1249941a9:4"><a rel="footnote" href="#fn:f04d57afc7abaa02bf8cb3c1249941a9:4">4</a></sup></p>
+<p>All of these are connected as shown below<sup class="footnote-ref" id="fnref:4"><a rel="footnote" href="#fn:4">4</a></sup></p>
 
 <figure>
     <img data-action="zoom" src="/images/keybase-io/keybase-graph.png" style="width:100%;"></img>
@@ -314,7 +314,7 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
 
 <p>This is really cool, because I&rsquo;m essentially sending someone an encrypted message just using their Twitter handle!</p>
 
-<h3 id="my-impression:f04d57afc7abaa02bf8cb3c1249941a9">My Impression</h3>
+<h3 id="my-impression">My Impression</h3>
 
 <p>The first thing that struck me about Keybase is great design. They&rsquo;ve made the process of interacting with it extremely transparent and simple, which is brilliant for users who aren&rsquo;t experts. The flexibility of being able to use a command line client is especially appreciated. For those who&rsquo;d like to be even more careful, it&rsquo;s possible to completely bypass the need for the client, and use command line scripts instead (which the website helps you construct). Note that you could also use the website for decryption and signing, if you chose to upload your private key.</p>
 
@@ -322,25 +322,25 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
 
 <p>People, especially those already used to encryption might complain that Keybase is not perfect &ndash; and it isn&rsquo;t. But using social proofs is a powerful idea, and besides, you can always use Keybase the old fashioned way.</p>
 
-<h3 id="what-can-go-wrong:f04d57afc7abaa02bf8cb3c1249941a9">What Can Go Wrong?</h3>
+<h3 id="what-can-go-wrong">What Can Go Wrong?</h3>
 
 <p>The fundamental idea is that you are signing proofs of your (public key) identity, and hosting them on other websites that <strong>you</strong> own. But any of these websites (including Keybase) can be compromised, so how do you build security and trust on top of systems that are fundamentally &ldquo;hackable&rdquo;? The first of defense is that you just try to spread your identity across as many systems as possible, which makes it more robust overall.</p>
 
-<h4 id="what-if-my-twitter-account-is-compromised:f04d57afc7abaa02bf8cb3c1249941a9">What if my Twitter account is compromised?</h4>
+<h4 id="what-if-my-twitter-account-is-compromised">What if my Twitter account is compromised?</h4>
 
 <p>It&rsquo;s possible to revoke a social proof from the Keybase site, and everybody will be able to see that you did so. What happens if all your social accounts are compromised, and need to be revoked? Well then your public key just became less trustworthy, and you already have other equally big (if not bigger) problems.</p>
 
-<h4 id="what-if-my-keybase-account-is-compromised:f04d57afc7abaa02bf8cb3c1249941a9">What if my Keybase account is compromised?</h4>
+<h4 id="what-if-my-keybase-account-is-compromised">What if my Keybase account is compromised?</h4>
 
 <p>You can delete the proofs on the other websites and desert the Keybase account, leaving the intruder with an untrustworthy public key. You should be able to generate new keys, create a new account, and establish identity again. If you uploaded your private key to Keybase, you might be in trouble (don&rsquo;t do it!). This is especially important since the site doesn&rsquo;t support 2-Factor Authentication yet (shocking huh?), and you don&rsquo;t want your private keys protected only by a passphrase.</p>
 
 <p>The Keybase server could also be compromised leading to undesirable outcomes, but there&rsquo;s a better discussion of that <a href="https://keybase.io/docs/server_security">here</a>.</p>
 
-<h4 id="online-security-is-still-your-responsibility:f04d57afc7abaa02bf8cb3c1249941a9">Online security is still your responsibility</h4>
+<h4 id="online-security-is-still-your-responsibility">Online security is still your responsibility</h4>
 
 <p>Keybase is a trusted store for your public keys, but won&rsquo;t make your online presence any more secure. For instance, your password reset email address is likely a single point of failure. Whoever gets access to your email account can hypothetically reset all other accounts and take control, which really is a disaster.</p>
 
-<h4 id="can-you-protect-your-private-keys:f04d57afc7abaa02bf8cb3c1249941a9">Can you protect your private keys?</h4>
+<h4 id="can-you-protect-your-private-keys">Can you protect your private keys?</h4>
 
 <p>So far, everything has revolved around being able to protect your private key, but that&rsquo;s another challenge in itself. Do other people use your laptop? Do you carelessly move your keys around? If your private key is compromised though, it&rsquo;s still possible to generate a new pair and provide new social proofs, but all previously encrypted public messages continue to be at risk.</p>
 
@@ -348,7 +348,7 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
 
 <p>In conclusion, I will say that I&rsquo;m expecting good things from Keybase and will closely follow the company&rsquo;s progress. It&rsquo;s almost surprising that nobody implemented this idea sooner, although many good ideas appear that way in hindsight. Whether Keybase can stand the test of time, we shall see.</p>
 
-<h3 id="some-relevant-links:f04d57afc7abaa02bf8cb3c1249941a9">Some Relevant Links</h3>
+<h3 id="some-relevant-links">Some Relevant Links</h3>
 
 <p>I&rsquo;ve deliberately left out a lot of details from this post to make it more accessible. If you&rsquo;d like to read further, here&rsquo;s a set of links I pulled up (not exhaustive):</p>
 
@@ -372,14 +372,14 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
 <hr />
 
 <ol>
-<li id="fn:f04d57afc7abaa02bf8cb3c1249941a9:1">This is what is known as asymmetric-key encryption, because there are two different keys that have different roles. There&rsquo;s also symmetric-key encryption, where both parties share one (secret) key, and the same key is used to encrypt and decrypt messages. Symmetric-key encryption is generally faster, but the challenge is sharing the key securely.
- <a class="footnote-return" href="#fnref:f04d57afc7abaa02bf8cb3c1249941a9:1"><sup>[return]</sup></a></li>
-<li id="fn:f04d57afc7abaa02bf8cb3c1249941a9:2">Tamper-evident means that if the message was tampered with along the way, it would be clear because it wouldn&rsquo;t be possible to decrypt it using the matching public or private key.
- <a class="footnote-return" href="#fnref:f04d57afc7abaa02bf8cb3c1249941a9:2"><sup>[return]</sup></a></li>
-<li id="fn:f04d57afc7abaa02bf8cb3c1249941a9:3">Don&rsquo;t do it! There are several concerns, implications, and reasons around why one may want to do it (or not). <a href="https://github.com/keybase/keybase-issues/issues/160">This thread</a> might be helpful.
- <a class="footnote-return" href="#fnref:f04d57afc7abaa02bf8cb3c1249941a9:3"><sup>[return]</sup></a></li>
-<li id="fn:f04d57afc7abaa02bf8cb3c1249941a9:4">This graph, called a Merkle tree or hash tree is a tree in which every non-leaf node is labelled with the hash of the labels or values (in case of leaves) of its child nodes. Hash trees are useful because they allow efficient and secure verification of the contents of large data structures. The Keybase graph has bidirectional edges though, so it implements such checking in both directions.
- <a class="footnote-return" href="#fnref:f04d57afc7abaa02bf8cb3c1249941a9:4"><sup>[return]</sup></a></li>
+<li id="fn:1">This is what is known as asymmetric-key encryption, because there are two different keys that have different roles. There&rsquo;s also symmetric-key encryption, where both parties share one (secret) key, and the same key is used to encrypt and decrypt messages. Symmetric-key encryption is generally faster, but the challenge is sharing the key securely.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">Tamper-evident means that if the message was tampered with along the way, it would be clear because it wouldn&rsquo;t be possible to decrypt it using the matching public or private key.
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3">Don&rsquo;t do it! There are several concerns, implications, and reasons around why one may want to do it (or not). <a href="https://github.com/keybase/keybase-issues/issues/160">This thread</a> might be helpful.
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:4">This graph, called a Merkle tree or hash tree is a tree in which every non-leaf node is labelled with the hash of the labels or values (in case of leaves) of its child nodes. Hash trees are useful because they allow efficient and secure verification of the contents of large data structures. The Keybase graph has bidirectional edges though, so it implements such checking in both directions.
+ <a class="footnote-return" href="#fnref:4"><sup>[return]</sup></a></li>
 </ol>
 </div>
 

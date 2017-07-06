@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://nishanttotla.com/</loc>
-    <lastmod>2017-06-30T00:27:27-07:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://nishanttotla.com/blog/monthly-2017-06/</loc>
@@ -203,11 +198,320 @@
   </url>
   
   <url>
+    <loc>http://nishanttotla.com/readme/</loc>
+  </url>
+  
+  <url>
     <loc>http://nishanttotla.com/about/</loc>
   </url>
   
   <url>
+    <loc>http://nishanttotla.com/tags/arsenal/</loc>
+    <lastmod>2015-10-26T19:10:35-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/blog/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/blog/</loc>
+    <lastmod>2016-03-14T00:52:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/college/</loc>
+    <lastmod>2012-06-21T19:26:42-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nishanttotla.com/colophon/</loc>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/color/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/conferences/</loc>
+    <lastmod>2016-11-15T03:32:11-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/development/</loc>
+    <lastmod>2016-03-11T13:35:12-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/distributed-systems/</loc>
+    <lastmod>2016-01-02T16:25:04-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/empathy/</loc>
+    <lastmod>2015-10-28T15:46:09-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/football/</loc>
+    <lastmod>2015-10-26T19:10:35-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/git/</loc>
+    <lastmod>2016-04-13T14:18:26-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/github/</loc>
+    <lastmod>2016-04-13T14:18:26-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/hair/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/hawaii/</loc>
+    <lastmod>2015-12-24T15:39:26-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/holidays/</loc>
+    <lastmod>2015-12-24T15:39:26-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/hugo/</loc>
+    <lastmod>2016-03-14T00:52:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/iitb/</loc>
+    <lastmod>2012-06-21T19:26:42-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/india/</loc>
+    <lastmod>2017-01-23T12:59:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/keybase/</loc>
+    <lastmod>2016-04-13T14:18:26-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/learning/</loc>
+    <lastmod>2016-04-03T15:01:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/life/</loc>
+    <lastmod>2016-12-31T01:20:02+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/lifehacks/</loc>
+    <lastmod>2016-04-03T15:01:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/monthly-log/</loc>
+    <lastmod>2017-06-30T00:27:27-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/monthly-log/</loc>
+    <lastmod>2017-06-30T00:27:27-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/series/non-technical/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/notes/</loc>
+    <lastmod>2017-05-25T23:03:38-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/categories/personal/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/photography/</loc>
+    <lastmod>2017-05-25T23:03:38-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/podcasts/</loc>
+    <lastmod>2015-10-19T15:50:52-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/politics/</loc>
+    <lastmod>2015-11-06T16:01:47-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/privilege/</loc>
+    <lastmod>2017-01-12T15:29:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/programming/</loc>
+    <lastmod>2016-04-05T12:05:11-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/quirks/</loc>
+    <lastmod>2016-05-12T11:21:15-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/quotes/</loc>
+    <lastmod>2016-05-07T12:55:36-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/security/</loc>
+    <lastmod>2016-04-13T14:18:26-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/series/</loc>
+    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/social-media/</loc>
+    <lastmod>2015-11-06T16:01:47-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/software/</loc>
+    <lastmod>2016-11-15T03:32:11-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/speech/</loc>
+    <lastmod>2017-01-12T15:29:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/success/</loc>
+    <lastmod>2017-01-12T15:29:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/</loc>
+    <lastmod>2015-10-26T19:10:35-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/categories/technical/</loc>
+    <lastmod>2016-11-15T03:32:11-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/thoughts/</loc>
+    <lastmod>2017-02-12T22:44:06-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/categories/travel/</loc>
+    <lastmod>2017-01-23T12:59:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/travel/</loc>
+    <lastmod>2017-01-23T12:59:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/categories/uncategorized/</loc>
+    <lastmod>2017-01-12T15:29:03+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/web-design/</loc>
+    <lastmod>2016-03-14T00:52:35-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/words/</loc>
+    <lastmod>2017-01-30T15:09:14-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/work/</loc>
+    <lastmod>2016-04-05T12:05:11-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/</loc>
+    <lastmod>2017-06-30T00:27:27-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

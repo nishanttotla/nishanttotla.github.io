@@ -139,7 +139,7 @@
 
 <p>In my <a href="/blog/playing-with-keybase-io/">last post</a>, I described public key encryption and how you can generate new PGP keys using <a href="https://keybase.io/">Keybase</a>. That was just a start, and PGP keys have several uses. One of the first things I wanted to do was to start signing all my Git commits.</p>
 
-<h3 id="why-sign-commits:2956a9e0886a6b1ebeb547ba30f1e87b">Why Sign Commits?</h3>
+<h3 id="why-sign-commits">Why Sign Commits?</h3>
 
 <p>Recent versions of Git (v1.7.9 and above) introduced the ability to sign commits using a GPG key. A signed commit can be verified to make sure that you wrote the code that you claim you did. If you write software as part of a small team where everyone physically meets each other, you likely don&rsquo;t need to do it, but for many open source projects where contributors often never meet physically, <a href="https://mikegerwitz.com/papers/git-horror-story">this becomes important</a>.</p>
 
@@ -164,7 +164,7 @@ Date:   Thu Apr 7 14:17:32 2016 -0700
 
 <p>If you&rsquo;re new to encryption, this guide will hopefully help you get started with signing commits. I use a Mac, so make sure to adapt instructions to your environment. If you already have GPG installed, and a key in your keyring, then you can jump to the second half.</p>
 
-<h3 id="setting-up-a-key:2956a9e0886a6b1ebeb547ba30f1e87b">Setting up a Key</h3>
+<h3 id="setting-up-a-key">Setting up a Key</h3>
 
 <p>This article focuses on exporting your Keybase key to GPG, and moving from there. If you want to generate a key using GPG, there are <a href="https://help.ubuntu.com/community/GnuPrivacyGuardHowto">other articles</a> you might want to read first.</p>
 
@@ -191,7 +191,7 @@ gpg:   secret keys imported: 1
 
 <p>The import succeeded, <code>9B3D0C19</code> is the shortened public key signature. Make sure you delete <code>secret-key.asc</code>. If you type <code>gpg --list-keys</code>, you should be able to see the key that was just added.</p>
 
-<h3 id="adding-the-key-to-git-config:2956a9e0886a6b1ebeb547ba30f1e87b">Adding the Key to Git Config</h3>
+<h3 id="adding-the-key-to-git-config">Adding the Key to Git Config</h3>
 
 <p>Git needs to know which key to sign your commits with. Providing that information is dead simple!</p>
 
@@ -210,7 +210,7 @@ gpg:   secret keys imported: 1
 <pre><code>$ git config --global commit.gpgsign true
 </code></pre>
 
-<h3 id="updating-trust-level-for-the-key:2956a9e0886a6b1ebeb547ba30f1e87b">Updating Trust Level for the Key</h3>
+<h3 id="updating-trust-level-for-the-key">Updating Trust Level for the Key</h3>
 
 <p>If you tried a commit with the new setup, and checked the commit logs, you might see a small issue</p>
 
@@ -299,7 +299,7 @@ Date:   Tue Apr 12 17:14:00 2016 -0700
 
 <p>Note that it&rsquo;s also possible to <a href="https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work">sign tags and merge commits</a>.</p>
 
-<h3 id="optional-upload-your-public-key-to-github:2956a9e0886a6b1ebeb547ba30f1e87b">(Optional) Upload your Public Key to Github</h3>
+<h3 id="optional-upload-your-public-key-to-github">(Optional) Upload your Public Key to Github</h3>
 
 <p>Github <a href="https://github.com/blog/2144-gpg-signature-verification">recently announced</a> that they would start showing a &ldquo;Verified&rdquo; tag on commits that were signed with a known GPG key. This requires uploading your public key to Github, so that it can verify signatures. You can do this in account settings</p>
 

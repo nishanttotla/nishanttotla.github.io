@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on nRT</title>
+    <link>http://nishanttotla.com/categories/</link>
+    <description>Recent content in Categories on nRT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://nishanttotla.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personal</title>
+      <link>http://nishanttotla.com/categories/personal/</link>
+      <pubDate>Wed, 31 May 2017 13:32:52 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical</title>
+      <link>http://nishanttotla.com/categories/technical/</link>
+      <pubDate>Tue, 15 Nov 2016 03:32:11 -0500</pubDate>
+      
+      <guid>http://nishanttotla.com/categories/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>http://nishanttotla.com/categories/travel/</link>
+      <pubDate>Mon, 23 Jan 2017 12:59:04 +0530</pubDate>
+      
+      <guid>http://nishanttotla.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>http://nishanttotla.com/categories/uncategorized/</link>
+      <pubDate>Thu, 12 Jan 2017 15:29:03 +0530</pubDate>
+      
+      <guid>http://nishanttotla.com/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

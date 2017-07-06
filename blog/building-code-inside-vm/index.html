@@ -140,11 +140,11 @@
 
 <p>The solution was the continue writing code on the Mac, but build it inside the VM &ndash; a win-win. But how?</p>
 
-<p>The first solution I came up with involved using <code>rsync</code>, a very popular file synchronization tool for Unix-like systems. I set up one folder called <code>work</code> on my Mac, and one on the VM, and used <code>rsync</code> to copy files from one to the other. Any changes were automatically detected using <code>inotify</code> (or similar tools), and triggered a sync. I won&rsquo;t describe that in detail because it&rsquo;s not only fragile and prone to corruption<sup class="footnote-ref" id="fnref:0845bcb07a42949b6056d62ad8760900:1"><a rel="footnote" href="#fn:0845bcb07a42949b6056d62ad8760900:1">1</a></sup>, but also too hard to set up<sup class="footnote-ref" id="fnref:0845bcb07a42949b6056d62ad8760900:2"><a rel="footnote" href="#fn:0845bcb07a42949b6056d62ad8760900:2">2</a></sup>. All this was before I discovered that I could mount folders (duh) and create a relatively stable solution. If this is something you&rsquo;re interested in too, read on!</p>
+<p>The first solution I came up with involved using <code>rsync</code>, a very popular file synchronization tool for Unix-like systems. I set up one folder called <code>work</code> on my Mac, and one on the VM, and used <code>rsync</code> to copy files from one to the other. Any changes were automatically detected using <code>inotify</code> (or similar tools), and triggered a sync. I won&rsquo;t describe that in detail because it&rsquo;s not only fragile and prone to corruption<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>, but also too hard to set up<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>. All this was before I discovered that I could mount folders (duh) and create a relatively stable solution. If this is something you&rsquo;re interested in too, read on!</p>
 
-<h3 id="setting-up-a-mounted-folder-on-a-virtualbox-vm:0845bcb07a42949b6056d62ad8760900">Setting up a mounted folder on a VirtualBox VM</h3>
+<h3 id="setting-up-a-mounted-folder-on-a-virtualbox-vm">Setting up a mounted folder on a VirtualBox VM</h3>
 
-<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:0845bcb07a42949b6056d62ad8760900:3"><a rel="footnote" href="#fn:0845bcb07a42949b6056d62ad8760900:3">3</a></sup>.</p>
+<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup>.</p>
 
 <pre><code>$ sudo apt-get install openssh-server
 </code></pre>
@@ -169,7 +169,7 @@
 
 <p>Change the mount and directory names as appropriate for you. And that&rsquo;s it! Now you should be able to access a mirror of the host folder inside the VM without any of the messy <code>rsync</code> scripts. Note that if you reboot the VM, you&rsquo;ll have to run the mount command again &ndash; a requirement you can surpass by adding the line to your <code>.bashrc</code> file.</p>
 
-<h3 id="advantages-of-this-setup:0845bcb07a42949b6056d62ad8760900">Advantages of this setup</h3>
+<h3 id="advantages-of-this-setup">Advantages of this setup</h3>
 
 <p>It&rsquo;s an extremely simple setup that has worked for me (and others I helped) each time. While for me, the reasons to do this centered around personal preference, I feel there are at least two good reasons to do it anyway</p>
 
@@ -184,12 +184,12 @@
 <hr />
 
 <ol>
-<li id="fn:0845bcb07a42949b6056d62ad8760900:1">You don&rsquo;t want to know how git config files can go crazy.
- <a class="footnote-return" href="#fnref:0845bcb07a42949b6056d62ad8760900:1"><sup>[return]</sup></a></li>
-<li id="fn:0845bcb07a42949b6056d62ad8760900:2">I&rsquo;m surprised I even had to patience to go through all the steps.
- <a class="footnote-return" href="#fnref:0845bcb07a42949b6056d62ad8760900:2"><sup>[return]</sup></a></li>
-<li id="fn:0845bcb07a42949b6056d62ad8760900:3">To save some trouble if your Mac reboots, you might want to set a static IP address for the VM. How to do that is beyond the scope of this post.
- <a class="footnote-return" href="#fnref:0845bcb07a42949b6056d62ad8760900:3"><sup>[return]</sup></a></li>
+<li id="fn:1">You don&rsquo;t want to know how git config files can go crazy.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">I&rsquo;m surprised I even had to patience to go through all the steps.
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3">To save some trouble if your Mac reboots, you might want to set a static IP address for the VM. How to do that is beyond the scope of this post.
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
 </ol>
 </div>
 
