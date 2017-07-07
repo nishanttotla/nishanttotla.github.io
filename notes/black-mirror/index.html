@@ -192,9 +192,10 @@ moment for those flipping channels. On one of them, I&rsquo;m On Air.</p>
     
     
     
-    if (window.location.hostname == "localhost")
+    if (window.location.hostname == "localhost") {
         document.getElementById('disqus_thread').append("Comments appear here on actual deployment, but are skipped for localhost.")
         return;
+    }
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     var disqus_shortname = 'nishanttotla';

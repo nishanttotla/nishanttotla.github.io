@@ -435,9 +435,10 @@ NnLlHvuC6/MRA2CGEMAnj8Ks0/uQdio7uzOSBqBlNHf6CSFzTX+gx8KjE0bjPVD2
     
     
     
-    if (window.location.hostname == "localhost")
+    if (window.location.hostname == "localhost") {
         document.getElementById('disqus_thread').append("Comments appear here on actual deployment, but are skipped for localhost.")
         return;
+    }
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     var disqus_shortname = 'nishanttotla';
