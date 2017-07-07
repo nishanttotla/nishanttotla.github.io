@@ -84,7 +84,6 @@
           <ul class="nav-list">
             <li><a href="/about" title="About">About <i class="icon-user"></i></a></li>
             <li><a href="/blog" title="Blog">Blog <i class="icon-pencil"></i></a></li>
-            <li><a href="/monthly-log" title="Monthly Log">Monthly <i class="icon-calendar"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -204,7 +203,7 @@
 
 					
           <div class="paging-newer six columns">
-            <a class="paging-link" href="/blog/distributed-systems-resources/">Distributed Systems Resources <i class="icon-right-open"></i></a>
+            <a class="paging-link" href="/blog/why-i-moved-to-static-website/">Why I Moved to a Static Website <i class="icon-right-open"></i></a>
           </div>
           
 
@@ -218,26 +217,24 @@
   
   <div class="container">
     <div class="row" id="disqus_area">
-      <a href="#" id="disqus_load" onclick="return loadDisqus()">Add / View Comments</a>
-<div id="disqus_thread"></div>
-
+      <div id="disqus_thread"></div>
 <script type="text/javascript">
-  var disqus_shortname = 'nishanttotla';
 
-  function loadDisqus() {
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+(function() {
+    
+    
+    
+    if (window.location.hostname == "localhost")
+        document.getElementById('disqus_thread').append("Comments appear here on actual deployment, but are skipped for localhost.")
+        return;
 
-  
-  document.getElementById('disqus_load').style.display = 'none';
-  return false;
-}
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'nishanttotla';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
     </div>
   </div>
   
@@ -282,7 +279,7 @@
 
 </h1>
   <p style="margin-bottom: 0">Copyright Nishant Totla © 2016 - Present</p>
-  <p><a href="/about">About</a> · <a href="/blog">Blog</a> · <a href="/monthly-log">Monthly Log</a> · <a href="/notes">Notes</a> · <a href="/colophon">Colophon</a> · <a href="/blog/index.xml">RSS</a></p>
+  <p><a href="/about">About</a> · <a href="/blog">Blog</a> · <a href="/monthly-log">Monthly Log</a> · <a href="/notes">Notes</a> · <a href="/scitech">SciTech</a> · <a href="/colophon">Colophon</a> · <a href="/blog/index.xml">RSS</a></p>
 </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
