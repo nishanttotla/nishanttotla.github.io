@@ -73,7 +73,7 @@
 
 
 <body>
-      <div class="post-header">
+<div class="post-header">
   <div class="container">
     <div class="row">
       <div class="four columns">
@@ -92,44 +92,40 @@
   </div>
 </div>
 
-
+  
   <div class="container">
     <div class="row">
-
       <section>
-            <h1 class="post-title">
-              <a href="/blog/why-i-moved-to-static-website/">Why I Moved to a Static Website</a>
-            </h1>
+        <h1 class="post-title">
+          <a href="/blog/why-i-moved-to-static-website/">Why I Moved to a Static Website</a>
+        </h1>
 
-          <div class="post-content-meta">
+        <div class="post-content-meta">
+          
+            <i class="icon-calendar"></i>
+            <span class="post-date">
+              <span class="post-date-month">March</span>
+              <span class="post-date-day"> 14, </span>
+              <span class="post-date-year">2016</span>
+            </span>
+          
 
-            
-              <i class="icon-calendar"></i>
-              <span class="post-date">
-                <span class="post-date-month">March</span>
-                <span class="post-date-day"> 14, </span>
-                <span class="post-date-year">2016</span>
-              </span>
-            
+          
+          
+              <span class="post-tag"> in </span>
+              <a class="post-tag" href="/blog">
+                <i class="icon-list-bullet"></i>blog</a>
+          
+        </div>
 
-            
-            
-                <span class="post-tag"> in </span>
-                <a class="post-tag" href="/blog">
-                  <i class="icon-list-bullet"></i>blog</a>
-            
-         </div>
-
-			
-
-      <div class="post-content">
-        
+        <div class="post-content">
+          
 
 <p>As some of you know, I&rsquo;ve maintained a personal website/blog for a few years now. I&rsquo;ve always liked writing, because I consider it to be a natural extension of thinking. While I&rsquo;m not great with words, I do love keeping track of things I learn &ndash; that&rsquo;s really what a blog means to me. Over time, I went through several iterations to find the right platform. Things always revolved around WordPress, and regardless of what I tried, the experience of writing never got much better. What&rsquo;s more, there was actually a huge overhead to log into WordPress, not get turned off by the painfully slow interface, and then finally type a post &ndash; only to require a new plugin for each added functionality, which made the website progressively slower. I tried optimizing using several tricks, but at the end of the day I hated it.</p>
 
 <h3 id="static-site-generators">Static Site Generators</h3>
 
-<p>I was familiar with static site generators &ndash; tools that generate your website for you using some basic definitions, but never thought they could work for me. Around two months ago, I started exploring further, and found that the ecosystem had <a href="https://www.staticgen.com/">grown a lot</a> since I last checked. Still, it seemed like a lot of work with unclear advantages, until <a href="https://twitter.com/prakharsriv9">Prakhar</a> fully convinced me to take the plunge.</p>
+<p>I was familiar with static site generators &ndash; tools that generate your website for you using some basic templating, but never thought they could work for me. Around two months ago, I started exploring further, and found that the ecosystem had <a href="https://www.staticgen.com/">grown a lot</a> since I last checked. Still, it seemed like a lot of work with unclear advantages, until <a href="https://twitter.com/prakharsriv9">Prakhar</a> fully convinced me to take the plunge.</p>
 
 <p><blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/nishanttotla">@nishanttotla</a> I whole-heartedly support this! No DB, editing in your fav text-editor and painless + free deployments. It can&#39;t get better.</p>&mdash; Prakhar Srivastav (@prakharsriv9) <a href="https://twitter.com/prakharsriv9/status/697481406956572672">February 10, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
@@ -139,7 +135,7 @@
 <h3 id="advantages-of-a-static-site">Advantages of a Static Site</h3>
 
 <ul>
-<li><strong>Speed</strong> - Static HTML can be loaded really fast, and is easy to cache. By comparison, WordPress uses a database to serve content that adds latency, and caching is much more complex. Faster websites are also more likely to have <a href="https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html">better search ranking</a>.</li>
+<li><strong>Speed</strong> - Static HTML can be loaded really fast, and is easy to cache. By comparison, WordPress uses a database to serve content that adds latency, and caching is much more complex. Faster websites are more likely to have <a href="https://webmasters.googleblog.com/2010/04/using-site-speed-in-web-search-ranking.html">better search ranking</a>.</li>
 <li><strong>Security</strong> - WordPress has been known to have several security vulnerabilities, and generally has a wider attack surface since it needs a database and server to work. I&rsquo;m no security expert, and always worried about exposing my site to attacks. BlueHost in addition constantly sent me emails about security updates, many of which I didn&rsquo;t fully understand or want to care about. By contrast, a static site can be hosted practically anywhere (which for me means more secure locations like Github pages or AWS).</li>
 <li><strong>Cost</strong> - A HUGE difference! A BlueHost web hosting account cost me about $50 per year, in addition to ~$10 for the domain name. Now I just pay for the domain, while web hosting is free with Github pages.</li>
 <li><strong>Portability</strong> - Static HTML can be hosted literally anywhere with minimal to no setup. This makes it easy to not get locked into to a specific hosting provider or environment, and move quickly if necessary. Granted that WordPress also provides portability, but it&rsquo;s not equally easy to set up everywhere.</li>
@@ -159,7 +155,7 @@
 
 <h3 id="static-sites-may-not-be-for-everyone">Static Sites may not be for Everyone</h3>
 
-<p>All that said, if this got you excited, and you want to build your own static site, there are a few caveats to consider.</p>
+<p>If the above got you excited, and you want to build your own static site, there are a few caveats to consider.</p>
 
 <ul>
 <li>Creating a good static site is likely to be more work, and takes a certain amount of comfort with web design. You also need to set up your own workflow which might be hard if you&rsquo;re unfamiliar with programming tools.</li>
@@ -168,7 +164,7 @@
 <li>It can be difficult to use other devices to write posts, depending on how complex it is to set up the development environment. Hugo makes it easy, but there can still be challenges with versioning, or when extra tools are needed. At the very least, editing on the phone will be difficult (unlike WordPress).</li>
 </ul>
 
-<h3 id="in-conclusion">In Conclusion</h3>
+<h3 id="conclusion">Conclusion</h3>
 
 <p>I don&rsquo;t have much more to say, except that to write a blog post now, all I need to do is type</p>
 
@@ -179,15 +175,13 @@
 
 <p>Please feel free to report any issues in the comments, or on <a href="https://github.com/nishanttotla/hugo-blog-skeleton">Github</a>. I&rsquo;m happy to help if you want to set up your own static site. It&rsquo;s a lot of fun! 😸</p>
 
-        
-            - nRT
-        
-      </div>
+          
+              - nRT
+          
+        </div>
 
-      
-
-			
-		    	<hr class="thin" />
+  			
+  		    	<hr class="thin" />
   <div class="social-sharing">
     <h1 class="social-sharing">
     Share:
@@ -197,28 +191,23 @@
     </h1>
   </div>
 <hr class="thin" />
+  		  
+      </section>
+    </div>
+
+    <div class="row paging">
 		  
-
-      </div>
-
-      <div class="row paging">
-			
-          
-          <div class="six columns">
-            <a class="paging-link" href="/blog/2015-year-in-review/"><i class="icon-left-open"></i> 2015 Year in Review</a>
-          </div>
-          
-
-					
-          <div class="paging-newer six columns">
-            <a class="paging-link" href="/blog/conference-travel-2016/">Conference Travel in 2016 <i class="icon-right-open"></i></a>
-          </div>
-          
-
+        
+        <div class="six columns">
+          <a class="paging-link" href="/blog/2015-year-in-review/"><i class="icon-left-open"></i> 2015 Year in Review</a>
+        </div>
+        
+				
+        <div class="paging-newer six columns">
+          <a class="paging-link" href="/blog/conference-travel-2016/">Conference Travel in 2016 <i class="icon-right-open"></i></a>
+        </div>
+        
       
-       </div>
-
-
     </div>
   </div>
 
@@ -248,9 +237,6 @@
   </div>
   
 
-
-	
-
 	
 		<script type="text/javascript">
 			function popupShare(url) {
@@ -260,7 +246,7 @@
 		</script>
 	
 
-    <script>
+  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -270,8 +256,8 @@
   ga('send', 'pageview');
 
 </script>
-    </div>
-      <div class="footer">
+  </div>
+    <div class="footer">
 	<hr class="thin" />
   <h1 class="social-me" align="center">
 

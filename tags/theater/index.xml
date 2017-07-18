@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theater on nRT</title>
+    <link>http://nishanttotla.com/tags/theater/</link>
+    <description>Recent content in Theater on nRT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Jul 2017 22:56:12 -0700</lastBuildDate>
+    
+	<atom:link href="http://nishanttotla.com/tags/theater/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Acting Class</title>
+      <link>http://nishanttotla.com/blog/about-acting-class/</link>
+      <pubDate>Mon, 17 Jul 2017 22:56:12 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/blog/about-acting-class/</guid>
+      <description>I&amp;rsquo;ve been meaning to try acting for a really long time, since college in fact. Back then I never managed to get started and it just became one of those bucket list items. While I was preparing for my recent conference talk (April), my co-worker (and co-speaker) Drew suggested that an acting class might really help with public speaking. I love speaking, so when a few days later my friend Vijay asked me if I&amp;rsquo;d like to try something new, I knew what it would be.</description>
+    </item>
+    
+  </channel>
+</rss>

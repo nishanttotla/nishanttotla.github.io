@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://nishanttotla.com/blog/about-acting-class/</loc>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nishanttotla.com/experiences/floatation-tank/</loc>
     <lastmod>2017-07-09T20:06:09-07:00</lastmod>
   </url>
@@ -212,6 +217,12 @@
   </url>
   
   <url>
+    <loc>http://nishanttotla.com/tags/acting/</loc>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://nishanttotla.com/archive/</loc>
     <lastmod>2050-05-31T13:32:52-07:00</lastmod>
     <priority>0</priority>
@@ -225,7 +236,7 @@
   
   <url>
     <loc>http://nishanttotla.com/blog/</loc>
-    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -390,7 +401,7 @@
   
   <url>
     <loc>http://nishanttotla.com/categories/personal/</loc>
-    <lastmod>2017-05-31T13:32:52-07:00</lastmod>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -473,7 +484,13 @@
   
   <url>
     <loc>http://nishanttotla.com/tags/</loc>
-    <lastmod>2015-10-26T19:10:35-08:00</lastmod>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nishanttotla.com/tags/theater/</loc>
+    <lastmod>2017-07-17T22:56:12-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -484,13 +501,13 @@
   </url>
   
   <url>
-    <loc>http://nishanttotla.com/tags/travel/</loc>
+    <loc>http://nishanttotla.com/categories/travel/</loc>
     <lastmod>2017-01-23T12:59:04+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://nishanttotla.com/categories/travel/</loc>
+    <loc>http://nishanttotla.com/tags/travel/</loc>
     <lastmod>2017-01-23T12:59:04+05:30</lastmod>
     <priority>0</priority>
   </url>
