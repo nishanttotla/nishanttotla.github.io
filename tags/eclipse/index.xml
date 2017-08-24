@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse on nRT</title>
+    <link>http://nishanttotla.com/tags/eclipse/</link>
+    <description>Recent content in Eclipse on nRT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2017 14:10:49 -0700</lastBuildDate>
+    
+	<atom:link href="http://nishanttotla.com/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Total Solar Eclipse (August 2017)</title>
+      <link>http://nishanttotla.com/experiences/first-total-solar-eclipse/</link>
+      <pubDate>Tue, 22 Aug 2017 14:10:49 -0700</pubDate>
+      
+      <guid>http://nishanttotla.com/experiences/first-total-solar-eclipse/</guid>
+      <description>Was the hype worth it? YES! A hundred times YES! Nothing could really have prepared me for how spectacular and overwhelming it would be to witness a total solar eclipse for the first time. It was beautiful, strange, and emotionally evocative all at the same time.
+Having made plans and reservations just about in time for the trip to Oregon, I was naturally looking forward to the event, as were millions of others who traveled far to see totality across the United States.</description>
+    </item>
+    
+  </channel>
+</rss>
