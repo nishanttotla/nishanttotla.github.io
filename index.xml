@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nRT</title>
-    <link>http://nishanttotla.com/</link>
+    <link>https://nishanttotla.com/</link>
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 May 2050 13:32:52 -0700</lastBuildDate>
     
-	<atom:link href="http://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Stub</title>
-      <link>http://nishanttotla.com/archive/stub/</link>
+      <link>https://nishanttotla.com/archive/stub/</link>
       <pubDate>Tue, 31 May 2050 13:32:52 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/archive/stub/</guid>
+      <guid>https://nishanttotla.com/archive/stub/</guid>
       <description>This page is a stub. It&amp;rsquo;s part of a hack meant to publish an archive page using Hugo. The archive page contains a list of all the pages across all sections of the website. To see how it works, check the following files
  themes/skeleton/layouts/partials/archivelist.html &amp;ndash; The main condition here that does the magic is {{ if and (.IsPage) (.Section) (not (eq .Section &amp;quot;archive&amp;quot; )) }} themes/skeleton/layouts/section/archive.html  </description>
     </item>
     
     <item>
       <title>February 2018</title>
-      <link>http://nishanttotla.com/monthly-log/2018-02/</link>
+      <link>https://nishanttotla.com/monthly-log/2018-02/</link>
       <pubDate>Wed, 28 Feb 2018 15:24:42 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2018-02/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2018-02/</guid>
       <description>Articles  Meet The Dominatrix Who Requires The Men Who Hire Her To Read Black Feminist Theory  [Huffington Post] &amp;ndash; Quoting &amp;ldquo;Over time, Mistress Velvet said she began “doing a lot of theorizing” about the power dynamics of a black woman holding that kind of supremacy over a white cisgender man. She began introducing black feminist theory into her sessions with clients, who’ve told her their relationship in that space has impacted their behavior outside of it.</description>
     </item>
     
     <item>
       <title>December 2017-January 2018</title>
-      <link>http://nishanttotla.com/monthly-log/2018-01/</link>
+      <link>https://nishanttotla.com/monthly-log/2018-01/</link>
       <pubDate>Wed, 31 Jan 2018 00:12:44 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2018-01/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2018-01/</guid>
       <description>Articles  India’s Hospitals Are Filling Up With Desperate Americans [Foreign Policy] &amp;ndash; A perspective on the medical tourism industry in India which talks about how this impacts healthcare access for poorer Indians.
  United States of South India: Can a southern collective get us a better deal from Delhi? [The News Minute] &amp;ndash; Economic arguments for why the states of southern India need to make a united political stand.</description>
     </item>
     
     <item>
       <title>Let&#39;s Talk About Aziz Ansari</title>
-      <link>http://nishanttotla.com/blog/lets-talk-about-aziz-ansari/</link>
+      <link>https://nishanttotla.com/blog/lets-talk-about-aziz-ansari/</link>
       <pubDate>Wed, 17 Jan 2018 13:37:44 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/lets-talk-about-aziz-ansari/</guid>
+      <guid>https://nishanttotla.com/blog/lets-talk-about-aziz-ansari/</guid>
       <description>Disclaimer: This is a controversial topic, and I have tried to be as sensitive as possible. The reason for writing about it is to collect my own thoughts and hopefully have a (civil) discussion in the comments section. Hateful comments and ad hominem attacks are not appreciated and will be removed. Also note that this post has been written keeping mostly a cis-heterosexual perspective in mind. This is necessarily limited, but helps with specificity.</description>
     </item>
     
     <item>
       <title>2017 Year in Review</title>
-      <link>http://nishanttotla.com/blog/2017-year-in-review/</link>
+      <link>https://nishanttotla.com/blog/2017-year-in-review/</link>
       <pubDate>Sun, 31 Dec 2017 18:43:39 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/2017-year-in-review/</guid>
+      <guid>https://nishanttotla.com/blog/2017-year-in-review/</guid>
       <description>I started posting these yearly review posts two years ago, and each time I&amp;rsquo;ve failed to finish before the New Year&amp;rsquo;s Eve. This time is no different. Regardless, I think the effort is worthwhile and rewarding, especially for a cynical person like me who often has a hard time appreciating the good things in life. Unlike the doom and gloom of 2015 and 2016, my hindsight perception of 2017 is much more positive.</description>
     </item>
     
     <item>
       <title>November 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-11/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-11/</link>
       <pubDate>Thu, 30 Nov 2017 00:12:42 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-11/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-11/</guid>
       <description>Articles  The Glaring Blind Spot of the &amp;lsquo;Me Too&amp;rsquo; Movement [The Atlantic] &amp;ndash; Quoting from the article, &amp;ldquo;Though the #MeToo movement has made clear the insidiousness and prevalence of sexual harassment and assault, it has also been centered mostly on the experiences of white, affluent, and educated women. One doesn’t need to look far to see instances of women of color being forgotten or sidelined.&amp;rdquo; As much as we talk about intersectionality, we need to do better at applying it in practice when powerful movements like these take shape.</description>
     </item>
     
     <item>
       <title>September-October 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-10/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-10/</link>
       <pubDate>Tue, 31 Oct 2017 19:18:33 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-10/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-10/</guid>
       <description>I&amp;rsquo;ve found little motivation to write in the last couple of months and so I haven&amp;rsquo;t bothered to publish the September log. But I didn&amp;rsquo;t stop consuming content &amp;ndash; to the contrary, I read more articles than ever, so this is going to be a really long list.
 Articles  You Are the Product [London Review of Books] &amp;ndash; This is a long essay that critiques the mission of Facebook as a product and company, while considering the true role it plays in our individual and social lives.</description>
     </item>
     
     <item>
       <title>August 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-08/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-08/</link>
       <pubDate>Thu, 31 Aug 2017 17:35:02 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-08/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-08/</guid>
       <description>It&amp;rsquo;s been a hectic month with some travel and a move to San Francisco finally materializing. As a result, I haven&amp;rsquo;t had time to do much reading.
 Articles  We Need to Talk About Digital Blackface in Reaction GIFs [Teen Vogue] &amp;ndash; This was something I had been thinking about from time to time, but of course this article articulately talks about the implications of non-black people overusing GIFs of black people online.</description>
     </item>
     
     <item>
       <title>Moving To San Francisco</title>
-      <link>http://nishanttotla.com/blog/moving-to-san-francisco/</link>
+      <link>https://nishanttotla.com/blog/moving-to-san-francisco/</link>
       <pubDate>Tue, 29 Aug 2017 14:27:43 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/blog/moving-to-san-francisco/</guid>
+      <guid>https://nishanttotla.com/blog/moving-to-san-francisco/</guid>
       <description>Today, I officially completed my move to San Francisco, giving up keys to my beloved apartment in Berkeley. When I moved to Berkeley on my birthday in 2012, I&amp;rsquo;d started out as an excited young person looking forward to great experiences and a successful time in the PhD program. Things turned out to be quite different in reality, but Berkeley has had a significant impact on my preferences, identity, and world view.</description>
     </item>
     
     <item>
       <title>First Total Solar Eclipse (August 2017)</title>
-      <link>http://nishanttotla.com/experiences/first-total-solar-eclipse/</link>
+      <link>https://nishanttotla.com/experiences/first-total-solar-eclipse/</link>
       <pubDate>Tue, 22 Aug 2017 14:10:49 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/experiences/first-total-solar-eclipse/</guid>
+      <guid>https://nishanttotla.com/experiences/first-total-solar-eclipse/</guid>
       <description>Was the hype worth it? YES! A hundred times YES! Nothing could really have prepared me for how spectacular and overwhelming it would be to witness a total solar eclipse for the first time. It was beautiful, strange, and emotionally evocative all at the same time.
 Having made plans and reservations just about in time for the trip to Oregon, I was naturally looking forward to the event, as were millions of others who traveled far to see totality across the United States.</description>
     </item>
     
     <item>
       <title>Voicemails</title>
-      <link>http://nishanttotla.com/notes/voicemails/</link>
+      <link>https://nishanttotla.com/notes/voicemails/</link>
       <pubDate>Thu, 03 Aug 2017 19:22:19 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/voicemails/</guid>
+      <guid>https://nishanttotla.com/notes/voicemails/</guid>
       <description>Two weeks ago, I got a voicemail from an unknown number. Google Voice saved this transcript for me
  It&amp;rsquo;s your mommy. Call me back. I love you. Bye bye.
  Something about it felt familiar, but I couldn&amp;rsquo;t quite place it. I was about to delete it, and then it struck me. I scrolled down &amp;ndash; this wasn&amp;rsquo;t the first voicemail from that number.
@@ -120,10 +120,10 @@ It started nearly two years ago, in September 2015, when I got this voicemail1</
     
     <item>
       <title>Turmoil</title>
-      <link>http://nishanttotla.com/notes/turmoil/</link>
+      <link>https://nishanttotla.com/notes/turmoil/</link>
       <pubDate>Mon, 31 Jul 2017 23:23:31 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/turmoil/</guid>
+      <guid>https://nishanttotla.com/notes/turmoil/</guid>
       <description>Hate.
 Myself.
 Completely.
@@ -139,37 +139,37 @@ Live.
     
     <item>
       <title>July 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-07/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-07/</link>
       <pubDate>Mon, 31 Jul 2017 23:14:10 -0400</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-07/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-07/</guid>
       <description>Articles  The Uninhabitable Earth [NYMag] &amp;ndash; A comprehensive look at the worst-case scenarios resulting from climate change in the coming decades. This article is decidedly alarmist, but deliberately so. As climate change denial becomes more common, it argues that an alarmist approach is required to counter it, especially as climate scientists continue to be cautious about long term effects. On a related note, there was another climate change article in the New York Times this month.</description>
     </item>
     
     <item>
       <title>Portland (July 2017)</title>
-      <link>http://nishanttotla.com/experiences/portland-july-2017/</link>
+      <link>https://nishanttotla.com/experiences/portland-july-2017/</link>
       <pubDate>Tue, 18 Jul 2017 17:36:24 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/experiences/portland-july-2017/</guid>
+      <guid>https://nishanttotla.com/experiences/portland-july-2017/</guid>
       <description>July 14 &amp;ndash; 16, 2017  3 days  I was in Portland this weekend for a friend&amp;rsquo;s &amp;ldquo;bachelorette party&amp;rdquo;. Quotes because this wasn&amp;rsquo;t a traditional bachelorette party at all (ask me why). We spent three days in the city, mostly exploring the food scene and urban landscape. This was my second trip to Portland, and this time I could strongly feel the laid-back vibe the city has. People really love their lunches and dinners and leisurely coffees and local markets.</description>
     </item>
     
     <item>
       <title>About Acting Class</title>
-      <link>http://nishanttotla.com/blog/about-acting-class/</link>
+      <link>https://nishanttotla.com/blog/about-acting-class/</link>
       <pubDate>Mon, 17 Jul 2017 22:56:12 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/blog/about-acting-class/</guid>
+      <guid>https://nishanttotla.com/blog/about-acting-class/</guid>
       <description>I&amp;rsquo;ve been meaning to try acting for a really long time, since college in fact. Back then I never managed to get started and it just became one of those bucket list items. While I was preparing for my recent conference talk (April), my co-worker (and co-speaker) Drew suggested that an acting class might really help with public speaking. I love speaking, so when a few days later my friend Vijay asked me if I&amp;rsquo;d like to try something new, I knew what it would be.</description>
     </item>
     
     <item>
       <title>Inside a Floatation Tank</title>
-      <link>http://nishanttotla.com/experiences/floatation-tank/</link>
+      <link>https://nishanttotla.com/experiences/floatation-tank/</link>
       <pubDate>Sun, 09 Jul 2017 20:06:09 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/experiences/floatation-tank/</guid>
+      <guid>https://nishanttotla.com/experiences/floatation-tank/</guid>
       <description>Today I finally experienced an hour in a floatation tank, also known to some as a sensory isolation tank. I&amp;rsquo;ve known about this for a long time and it is the kind of thing that naturally makes me curious. The basic question is
  How will the brain function when all external stimuli are removed?
  To achieve the conditions for this, you step into a lightless (and I mean &amp;ldquo;can&amp;rsquo;t-see-your-hands-at-two-inches-away-dark&amp;rdquo;) and soundproof tank filled to a depth of about 10 inches with high concentration Epsom salt solution.</description>
@@ -177,103 +177,103 @@ Live.
     
     <item>
       <title>Photos Then and Now</title>
-      <link>http://nishanttotla.com/notes/photos-then-and-now/</link>
+      <link>https://nishanttotla.com/notes/photos-then-and-now/</link>
       <pubDate>Fri, 07 Jul 2017 13:30:23 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/photos-then-and-now/</guid>
+      <guid>https://nishanttotla.com/notes/photos-then-and-now/</guid>
       <description>A Kodak film camera is the family&amp;rsquo;s most prized possession. You take it to every trip, but the kids can&amp;rsquo;t be trusted with it. Last time, the 10 year old dropped it and smashed the lens, and you had to get a new one costing thousands of Rupees. Oh family vacation coming up, pack many films because you don&amp;rsquo;t want to run out. Pick ISO 800 film, that&amp;rsquo;s probably safe for all conditions you&amp;rsquo;ll encounter.</description>
     </item>
     
     <item>
       <title>June 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-06/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-06/</link>
       <pubDate>Fri, 30 Jun 2017 00:27:27 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-06/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-06/</guid>
       <description>Articles  The Difference Between Liberalism and Leftism [Current Affairs] &amp;ndash; Simple explanation of the difference between liberalism and leftism (mostly focused on America) that you probably already know about, but the key here is an argument for collaboration between liberals and leftists. Quite often, people from either group refuse to work with those of the other group to steer the progressive movement. While the two might be fundamentally irreconcilable, short term collaboration makes sense.</description>
     </item>
     
     <item>
       <title>May 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-05/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-05/</link>
       <pubDate>Wed, 31 May 2017 16:18:17 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-05/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-05/</guid>
       <description>Articles  ‘I don’t know who I am without it’: the truth about long-term antidepressant use [The Guardian] &amp;ndash; &amp;ldquo;Prescriptions have doubled in a decade, but very little is known about the effect of taking SSRIs for years and years. Is it a lifesaver or a happiness trap?&amp;rdquo; To be fair, this MUST NOT be taken as a case against antidepressants, which are the difference between life and death for many people.</description>
     </item>
     
     <item>
       <title>Red Hairing</title>
-      <link>http://nishanttotla.com/blog/red-hairing/</link>
+      <link>https://nishanttotla.com/blog/red-hairing/</link>
       <pubDate>Wed, 31 May 2017 13:32:52 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/blog/red-hairing/</guid>
+      <guid>https://nishanttotla.com/blog/red-hairing/</guid>
       <description>A little over two weeks ago, I got my hair colored red. Not completely, just highlights, but very prominent highlights. Nothing unique because millions of people do this sort of thing, so the only reason I&amp;rsquo;m writing about it is because I can. Kind of the same reason why I colored my hair. It had been on my mind since last year, but the stars started aligning a month ago when a friend referred me to a place in Oakland.</description>
     </item>
     
     <item>
       <title>Black Mirror</title>
-      <link>http://nishanttotla.com/notes/black-mirror/</link>
+      <link>https://nishanttotla.com/notes/black-mirror/</link>
       <pubDate>Thu, 25 May 2017 23:03:38 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/black-mirror/</guid>
+      <guid>https://nishanttotla.com/notes/black-mirror/</guid>
       <description>Lately, I&amp;rsquo;ve been exploring interesting neighborhoods in San Francisco by leisurely walking through them. So far these jaunts have been focused on the Mission and Castro, with the occasional venture into Haight-Ashbury or Hayes Valley. A couple of weeks ago, I visited Dijital Fix, an electronics+design store on Valencia Street. It had some pretty retro electronics and other cool things. I clicked this photo on the way out, and only later realized why I liked it so much.</description>
     </item>
     
     <item>
       <title>April 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-04/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-04/</link>
       <pubDate>Sun, 30 Apr 2017 15:24:19 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-04/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-04/</guid>
       <description>Articles  The Fighter [The New York Times Magazine] &amp;ndash; Pulitzer Prize winning story about US Marine Sam Siatta&amp;rsquo;s traumatic experiences while serving in Afghanistan, and difficulties reintegrating into social life after coming back. It&amp;rsquo;s a long and powerful read.
  When Pixels Collide [sudoscript] &amp;ndash; For April Fool&amp;rsquo;s Day this year, Reddit launched an experiment, giving all its users a blank canvas called Place. Each user could place a pixel (out of 16 colors) anywhere on the canvas as many times as they wanted, waiting a few minutes between each time.</description>
     </item>
     
     <item>
       <title>March 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-03/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-03/</link>
       <pubDate>Fri, 31 Mar 2017 12:00:30 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-03/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-03/</guid>
       <description>It&amp;rsquo;s a full year of publishing a monthly log! The last time I stuck to something for that long, I got stock options.
 Articles  The Trip Treatment [The New Yorker] &amp;ndash; The most comprehensive article I&amp;rsquo;ve ever read about the use of psychedelics for medical treatment (mostly addiction, anxiety, and other mental health conditions). There is renewed enthusiasm in the promise of psychedelic drugs for treatment (this article mostly focuses on psilocybin, the active compound in magic mushrooms), even as they continue to be outlawed, researchers face difficulties getting funding, and several scientific questions remain unanswered.</description>
     </item>
     
     <item>
       <title>February 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-02/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-02/</link>
       <pubDate>Tue, 28 Feb 2017 15:25:25 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-02/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-02/</guid>
       <description>Articles  Some Troublesome Questions for Liberals on Borders [Current Affairs] &amp;ndash; As the last few months continue to heavily challenge our belief systems and ideals, I&amp;rsquo;ve been trying a lot harder to consolidate my own principles, and what liberalism means for me. Immigration is being talked about a lot these days, and this article raises pertinent questions about the way we argue for it. In summary, we need to do a much better job at constructing more solid (including moral) arguments for immigration, rather than just relying on the economic ones.</description>
     </item>
     
     <item>
       <title>Deciding to Stop</title>
-      <link>http://nishanttotla.com/notes/deciding-to-stop/</link>
+      <link>https://nishanttotla.com/notes/deciding-to-stop/</link>
       <pubDate>Sun, 12 Feb 2017 22:44:06 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/notes/deciding-to-stop/</guid>
+      <guid>https://nishanttotla.com/notes/deciding-to-stop/</guid>
       <description>I&amp;rsquo;m a slow reader with a short attention span, but I&amp;rsquo;d like to read a lot more books than I currently manage. So I&amp;rsquo;m like the armchair analyst who dreams of changing the world &amp;ndash; tons of ambition, but lack of skills (and possibly desire?). A recurrent problem for me has been that I start some books, partly or nearly finish them, have no interest in continuing, but can&amp;rsquo;t start other books until I finish the earlier ones.</description>
     </item>
     
     <item>
       <title>January 2017</title>
-      <link>http://nishanttotla.com/monthly-log/2017-01/</link>
+      <link>https://nishanttotla.com/monthly-log/2017-01/</link>
       <pubDate>Tue, 31 Jan 2017 22:27:53 +0530</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2017-01/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2017-01/</guid>
       <description>There are some old posts here, just because I&amp;rsquo;m still catching up with the backlog from the last 4-5 months.
 Articles  My President was Black [The Atlantic] &amp;ndash; A really long (in six parts) and powerful article by Ta-Nehisi Coates on the rise and political career of Barack Obama. It talks about Obama&amp;rsquo;s childhood in Hawaii, the influences that shaped his outlook and policies, and the recent election &amp;ndash; all viewed from the lens of race and history as well.</description>
     </item>
     
     <item>
       <title>Adronitis</title>
-      <link>http://nishanttotla.com/notes/adronitis/</link>
+      <link>https://nishanttotla.com/notes/adronitis/</link>
       <pubDate>Mon, 30 Jan 2017 15:09:14 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/notes/adronitis/</guid>
+      <guid>https://nishanttotla.com/notes/adronitis/</guid>
       <description>Here&amp;rsquo;s a word that struck me immediately. I found it on one of those listicles that pull up obscure words that mean very specific things, and then advertize to young adults trying to make sense of their emotions.
  Adronitis
 n. frustration with how long it takes to get to know someone—spending the first few weeks chatting in their psychological entryway, with each subsequent conversation like entering a different anteroom, each a little closer to the center of the house—wishing instead that you could start there and work your way out, exchanging your deepest secrets first, before easing into casualness, until you’ve built up enough mystery over the years to ask them where they’re from, and what they do for a living.</description>
@@ -281,291 +281,291 @@ n. frustration with how long it takes to get to know someone—spending the firs
     
     <item>
       <title>On Being a Tourist in India</title>
-      <link>http://nishanttotla.com/blog/on-being-tourist-in-india/</link>
+      <link>https://nishanttotla.com/blog/on-being-tourist-in-india/</link>
       <pubDate>Mon, 23 Jan 2017 12:59:04 +0530</pubDate>
       
-      <guid>http://nishanttotla.com/blog/on-being-tourist-in-india/</guid>
+      <guid>https://nishanttotla.com/blog/on-being-tourist-in-india/</guid>
       <description>I recently got back to California after spending four full weeks in India. My previous trip was two years ago, at the end of 2014. Until moving to the US in 2012, I&amp;rsquo;d only ever lived in India. Immediately after moving, life in California seemed very attractive, especially by virtue of the things India could not offer (primarily better facilities, a more peaceful lifestyle, and opportunities for individual growth). Whenever I visited India after that, I&amp;rsquo;d often complain about the lack of infrastructure, pollution, poor traffic, general disorder, and a host of other problems that might affect any developing country.</description>
     </item>
     
     <item>
       <title>I was Asked to Give a Motivational Speech</title>
-      <link>http://nishanttotla.com/blog/i-was-asked-motivational-speech/</link>
+      <link>https://nishanttotla.com/blog/i-was-asked-motivational-speech/</link>
       <pubDate>Thu, 12 Jan 2017 15:29:03 +0530</pubDate>
       
-      <guid>http://nishanttotla.com/blog/i-was-asked-motivational-speech/</guid>
+      <guid>https://nishanttotla.com/blog/i-was-asked-motivational-speech/</guid>
       <description>On December 18, 2016, my parents celebrated the 25th anniversary of Totla Hospital. It has been a long and impressive journey for them, starting out from literally nothing when they arrived in Aurangabad, to having built a very successful and highly respected hospital in the city. To celebrate this anniversary, they had organized a grand function, inviting a lot of former patients, friends, family, and others out of the gigantic community they&amp;rsquo;ve built during this time.</description>
     </item>
     
     <item>
       <title>December 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-12/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-12/</link>
       <pubDate>Sat, 31 Dec 2016 13:12:53 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-12/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-12/</guid>
       <description>There are some old posts here, just because I&amp;rsquo;m still catching up with the backlog from the last 4-5 months.
 Articles  Five Trends Shaping India’s Voting Landscape [Carnegie Endowment] &amp;ndash; Interesting analysis of voting trends and factors affecting elections in India. It touches upon some numbers illustrating patterns around voter turnout, effect of state elections, translation of votes to seats, etc. This was written before the 2014 election though, so some of the analysis might have to be changed as a result.</description>
     </item>
     
     <item>
       <title>2016 Year in Review</title>
-      <link>http://nishanttotla.com/blog/2016-year-in-review/</link>
+      <link>https://nishanttotla.com/blog/2016-year-in-review/</link>
       <pubDate>Sat, 31 Dec 2016 01:20:02 +0530</pubDate>
       
-      <guid>http://nishanttotla.com/blog/2016-year-in-review/</guid>
+      <guid>https://nishanttotla.com/blog/2016-year-in-review/</guid>
       <description>Precisely a year ago, I went to Hawaii to try and regain some sanity after what was a terrible 2015. It offered little apart from endless pain, suffering, depression, lack of community, and an uncontrollable feeling of helplessness. So much so that the second half of the Hawaii trip was full of panic attacks and attempts to cut the trip short. I was due to start a new job upon returning, and my Master&amp;rsquo;s thesis was still pending.</description>
     </item>
     
     <item>
       <title>August-November 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-11/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-11/</link>
       <pubDate>Wed, 30 Nov 2016 13:40:05 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-11/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-11/</guid>
       <description>Given all the travel and being busy over August to November, I didn&amp;rsquo;t really get much time to write or update the monthly log. I&amp;rsquo;m finally able to put something together at the end of November, collecting everything for the last four months in one place. These months have not only been eventful personally, but also politically. The fallout of the election of Donald Trump has affected me a lot, and forced me to read a lot more than I usually do.</description>
     </item>
     
     <item>
       <title>Maui (November 2016)</title>
-      <link>http://nishanttotla.com/experiences/maui-november-2016/</link>
+      <link>https://nishanttotla.com/experiences/maui-november-2016/</link>
       <pubDate>Tue, 29 Nov 2016 13:46:59 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/experiences/maui-november-2016/</guid>
+      <guid>https://nishanttotla.com/experiences/maui-november-2016/</guid>
       <description>November 24 &amp;ndash; 28, 2016  4 days  I visited Maui with V during the Thanksgiving break in 2016. It was a late booking and most tickets to Hawaii were rather expensive, but then we decided to not return on the Sunday after Thanksgiving (which is what most people do) and it suddenly made the tickets a few hundred dollars cheaper and the trip possible.
 In total, we spent four days on the island, which was a good amount of time to cover a lot of ground.</description>
     </item>
     
     <item>
       <title>Conference Travel in 2016</title>
-      <link>http://nishanttotla.com/blog/conference-travel-2016/</link>
+      <link>https://nishanttotla.com/blog/conference-travel-2016/</link>
       <pubDate>Tue, 15 Nov 2016 03:32:11 -0500</pubDate>
       
-      <guid>http://nishanttotla.com/blog/conference-travel-2016/</guid>
+      <guid>https://nishanttotla.com/blog/conference-travel-2016/</guid>
       <description>I&amp;rsquo;ve been fortunate to have traveled extensively during the Fall of 2016. A good chunk of that travel was because of work. Back in September, I visited London and St. Louis (Missouri), and attended three different conferences. Later in October, I flew back to Europe, this time to Berlin to attend my fourth conference in two months1. This post focuses on the conferences. I&amp;rsquo;ll write more about the sightseeing I did in future posts.</description>
     </item>
     
     <item>
       <title>July 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-07/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-07/</link>
       <pubDate>Sun, 31 Jul 2016 13:40:05 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-07/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-07/</guid>
       <description>Articles  The Day I Got My Green Card [The Wall Street Journal] &amp;ndash; Amidst general gloom and doom, a rare positive story about immigration. Several people (immigrants and citizens) regularly face struggles here, when it comes to issues of inclusion and acceptance in an increasingly polarized world. If you read this though, you&amp;rsquo;ll feel that a lot of luck was still involved in the outcome being positive, and it&amp;rsquo;s hard to ignore the immense privilege the author has.</description>
     </item>
     
     <item>
       <title>June 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-06/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-06/</link>
       <pubDate>Thu, 30 Jun 2016 13:40:05 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-06/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-06/</guid>
       <description>Articles  Here Is The Powerful Letter The Stanford Victim Read Aloud To Her Attacker [BuzzFeed] &amp;ndash; An unconscious woman was raped by a 20 year old Stanford student behind a dumpster, and he was convicted but only got jail time of 6 months as punishment. This article is powerful, and has been evoking a lot of outrage over the awful treatment that rape victims are regularly subjected to, and the leniancy of the sentence.</description>
     </item>
     
     <item>
       <title>May 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-05/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-05/</link>
       <pubDate>Tue, 31 May 2016 13:40:05 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-05/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-05/</guid>
       <description>Articles  Implementers, Solvers, and Finders [rkoutnik.com] &amp;ndash; This article describes three types of roles software engineers can fulfill in a company. Implementers implement solutions handed to them, solvers solve problems handed to them, finders discover those problems. It points out how most engineers only become finders when they choose the management ladder, and how there might still be hope for those who don&amp;rsquo;t want to.
  Why people pay to read The New York Times [Medium] &amp;ndash; This is a brilliant point of view, and one that fully aligns with how I think of journalism in the digital age.</description>
     </item>
     
     <item>
       <title>The Brothers, Not the Brotherhood</title>
-      <link>http://nishanttotla.com/notes/brothers-not-the-brotherhood/</link>
+      <link>https://nishanttotla.com/notes/brothers-not-the-brotherhood/</link>
       <pubDate>Sat, 07 May 2016 12:55:36 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/brothers-not-the-brotherhood/</guid>
+      <guid>https://nishanttotla.com/notes/brothers-not-the-brotherhood/</guid>
       <description>I&amp;rsquo;ve grown to love this quote from Shantaram, a book by Gregory David Roberts.
  But I was alone, and for two reasons: The mafia was theirs, not mine. For them, the organisation always came first. But I was loyal to the men, not the mafia; to the brothers, not the brotherhood. I worked for the mafia, but I didn&#39;t join it. I&#39;m not a joiner. I never found a club or clan or idea that was more important to me than the men and women who believed in it.</description>
     </item>
     
     <item>
       <title>April 2016</title>
-      <link>http://nishanttotla.com/monthly-log/2016-04/</link>
+      <link>https://nishanttotla.com/monthly-log/2016-04/</link>
       <pubDate>Sat, 30 Apr 2016 13:32:44 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/2016-04/</guid>
+      <guid>https://nishanttotla.com/monthly-log/2016-04/</guid>
       <description>Articles  Beware Trivial Inconveniences [LessWrong] &amp;ndash; This is a nice post about how The Great Firewall of China works by making it a little inconvenient and time-consuming to view subversive sites, thereby discouraging casual exploration. Even though it&amp;rsquo;s easy to bypass it with little technical knowledge or instructions, most people don&amp;rsquo;t do it. There are many more situations where it&amp;rsquo;s easy to discourage people from doing certain things simply by making them slightly inconvenient.</description>
     </item>
     
     <item>
       <title>Creating a Monthly Log</title>
-      <link>http://nishanttotla.com/monthly-log/creating-monthly-log/</link>
+      <link>https://nishanttotla.com/monthly-log/creating-monthly-log/</link>
       <pubDate>Sat, 16 Apr 2016 15:27:06 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/monthly-log/creating-monthly-log/</guid>
+      <guid>https://nishanttotla.com/monthly-log/creating-monthly-log/</guid>
       <description>Note: This is a backdated post. It was actually published in August, but has been dated appropriately to preserve order of posts. It is a follow-up from my previous attempt to create a weekly log, which turned out to be too much of a commitment.
 I recently got a cool idea from Constantin&amp;rsquo;s blog. On a more or less monthly basis, he writes about the books, podcasts, and other stuff he reads.</description>
     </item>
     
     <item>
       <title>Signing Git Commits with a GPG Key</title>
-      <link>http://nishanttotla.com/scitech/signing-git-commits-gpg/</link>
+      <link>https://nishanttotla.com/scitech/signing-git-commits-gpg/</link>
       <pubDate>Wed, 13 Apr 2016 14:18:26 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/scitech/signing-git-commits-gpg/</guid>
+      <guid>https://nishanttotla.com/scitech/signing-git-commits-gpg/</guid>
       <description>In my last post, I described public key encryption and how you can generate new PGP keys using Keybase. That was just a start, and PGP keys have several uses. One of the first things I wanted to do was to start signing all my Git commits.
 Why Sign Commits? Recent versions of Git (v1.7.9 and above) introduced the ability to sign commits using a GPG key. A signed commit can be verified to make sure that you wrote the code that you claim you did.</description>
     </item>
     
     <item>
       <title>Playing with Keybase.io</title>
-      <link>http://nishanttotla.com/scitech/playing-with-keybase-io/</link>
+      <link>https://nishanttotla.com/scitech/playing-with-keybase-io/</link>
       <pubDate>Mon, 11 Apr 2016 10:10:15 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/scitech/playing-with-keybase-io/</guid>
+      <guid>https://nishanttotla.com/scitech/playing-with-keybase-io/</guid>
       <description>I have to admit, despite having spent so many years studying Computer Science, my understanding of security and modern best practices is pretty shabby. I&amp;rsquo;m fixing that now, and it was a perfect opportunity when a friend invited me to try keybase.io. It&amp;rsquo;s still an Alpha product, and invite-only (or sign up and join the waitlist). I learned new things while trying it out, and wanted to write about it.</description>
     </item>
     
     <item>
       <title>I&#39;m Not Here to Get Things Done</title>
-      <link>http://nishanttotla.com/notes/not-here-to-get-things-done/</link>
+      <link>https://nishanttotla.com/notes/not-here-to-get-things-done/</link>
       <pubDate>Tue, 05 Apr 2016 12:05:11 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/not-here-to-get-things-done/</guid>
+      <guid>https://nishanttotla.com/notes/not-here-to-get-things-done/</guid>
       <description>I was talking to my friend Abhay recently, and he brought up a very interesting idea. He works at a software startup that&amp;rsquo;s still relatively small, which means that there&amp;rsquo;s a certain amount of pressure to make quick progress and produce results. This requires having to churn out functioning code on a regular basis. Unfortunately, it&amp;rsquo;s often easy to write code by pattern-matching or copying from other sources &amp;ndash; but an entirely different thing to fully understand, and internalize what you&amp;rsquo;re doing.</description>
     </item>
     
     <item>
       <title>So Who Wants to Volunteer?</title>
-      <link>http://nishanttotla.com/notes/who-wants-to-volunteer/</link>
+      <link>https://nishanttotla.com/notes/who-wants-to-volunteer/</link>
       <pubDate>Sun, 03 Apr 2016 15:01:35 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/notes/who-wants-to-volunteer/</guid>
+      <guid>https://nishanttotla.com/notes/who-wants-to-volunteer/</guid>
       <description>In yesterday&amp;rsquo;s Yoga class, our instructor wanted to demonstrate a certain asana (pose). She could have easily done it herself, but she wanted a volunteer, perhaps so that she could point out common mistakes people make in this asana. So she asked &amp;ndash; &amp;ldquo;who wants to volunteer?&amp;rdquo;. As is common in such a situation, most people look around trying to deflect attention. I often do that too, but this time I just raised my hand, albeit a little reluctantly.</description>
     </item>
     
     <item>
       <title>Why I Moved to a Static Website</title>
-      <link>http://nishanttotla.com/blog/why-i-moved-to-static-website/</link>
+      <link>https://nishanttotla.com/blog/why-i-moved-to-static-website/</link>
       <pubDate>Mon, 14 Mar 2016 00:52:35 -0700</pubDate>
       
-      <guid>http://nishanttotla.com/blog/why-i-moved-to-static-website/</guid>
+      <guid>https://nishanttotla.com/blog/why-i-moved-to-static-website/</guid>
       <description>As some of you know, I&amp;rsquo;ve maintained a personal website/blog for a few years now. I&amp;rsquo;ve always liked writing, because I consider it to be a natural extension of thinking. While I&amp;rsquo;m not great with words, I do love keeping track of things I learn &amp;ndash; that&amp;rsquo;s really what a blog means to me. Over time, I went through several iterations to find the right platform. Things always revolved around WordPress, and regardless of what I tried, the experience of writing never got much better.</description>
     </item>
     
     <item>
       <title>Building Code Inside a VM</title>
-      <link>http://nishanttotla.com/scitech/building-code-inside-vm/</link>
+      <link>https://nishanttotla.com/scitech/building-code-inside-vm/</link>
       <pubDate>Fri, 11 Mar 2016 13:35:12 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/scitech/building-code-inside-vm/</guid>
+      <guid>https://nishanttotla.com/scitech/building-code-inside-vm/</guid>
       <description>This post is based on the workflow I&amp;rsquo;ve been employing during my day to day work at Docker. When I first started, I chose to get a 13&amp;rsquo; Macbook Pro, which is a pretty solid machine to own. But a lot of the compiling and testing I needed to do needed a Linux distribution, so I had two options &amp;ndash; install Linux or use a Virtual Machine (VM). Installing VirtualBox and using a simple Ubuntu VM is a fairly straightforward solution, but there were two problems</description>
     </item>
     
     <item>
       <title>Dear Recruiter</title>
-      <link>http://nishanttotla.com/recruiting/</link>
+      <link>https://nishanttotla.com/recruiting/</link>
       <pubDate>Sun, 06 Mar 2016 14:50:19 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/recruiting/</guid>
+      <guid>https://nishanttotla.com/recruiting/</guid>
       <description>If you&amp;rsquo;re looking to hire a software engineer for a company you work with, and are interested in my background, please read the following to get a sense of what kind of work and culture I value. It would be useful before starting the laborious interview process.
 Roles While I&amp;rsquo;m primarily a software engineer, I&amp;rsquo;m not necessarily only looking for roles that involve writing code. In the future, I would like to explore career paths that offer alternative kinds of responsibilities, such as management or a mixture of other things.</description>
     </item>
     
     <item>
       <title>Places I&#39;ve been</title>
-      <link>http://nishanttotla.com/places/</link>
+      <link>https://nishanttotla.com/places/</link>
       <pubDate>Sat, 05 Mar 2016 07:28:41 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/places/</guid>
+      <guid>https://nishanttotla.com/places/</guid>
       <description>I was born in India and spent nearly 16 years of my life in one city, with a little occasional travel. I then spent 6 years away from home. In 2012, I moved to Berkeley, California where I lived for five years until moving to San Francisco in 2017.
 In 2014, I made the commitment to self that I&amp;rsquo;d travel to at least one new country each year. Barring 2017, I&amp;rsquo;ve managed that so far.</description>
     </item>
     
     <item>
       <title>Distributed Systems Resources</title>
-      <link>http://nishanttotla.com/scitech/distributed-systems-resources/</link>
+      <link>https://nishanttotla.com/scitech/distributed-systems-resources/</link>
       <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/scitech/distributed-systems-resources/</guid>
+      <guid>https://nishanttotla.com/scitech/distributed-systems-resources/</guid>
       <description>I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.
 In this (dynamically updated) post, I intend to keep track of all good resources I come across in this quest. This includes not only research papers and books, but also good blogs, people to follow and discussions/meetups that could be helpful.</description>
     </item>
     
     <item>
       <title>2015 Year in Review</title>
-      <link>http://nishanttotla.com/blog/2015-year-in-review/</link>
+      <link>https://nishanttotla.com/blog/2015-year-in-review/</link>
       <pubDate>Thu, 31 Dec 2015 19:16:02 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/2015-year-in-review/</guid>
+      <guid>https://nishanttotla.com/blog/2015-year-in-review/</guid>
       <description>Are you already sick of people writing their yearly review posts? I bet! I’m going to add more more to the pile though, but mostly as a milestone for myself, and for others who might find value in reading it.
 To start, I have to say that 2015 has been the most unusual year of my life. I’ve experienced many different things and changed a lot as a person. This is also the year when I finally decided and went through the process of quitting grad school to venture out into the real world.</description>
     </item>
     
     <item>
       <title>Off to Hawaii - a Good End to a Miserable Year</title>
-      <link>http://nishanttotla.com/blog/off-to-hawaii/</link>
+      <link>https://nishanttotla.com/blog/off-to-hawaii/</link>
       <pubDate>Thu, 24 Dec 2015 15:39:26 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/off-to-hawaii/</guid>
+      <guid>https://nishanttotla.com/blog/off-to-hawaii/</guid>
       <description>2015 will go down as the worst year in my life so far, no doubts about that! It has been a year when I suffered a lot, learned some hard lessons, and had to face several uncomfortable truths about myself. I’ve battled terrifying depression and felt things I wasn’t ready to handle. As painful as that has been, I’m glad to be ending the year right – by taking a break from everything, and heading to Hawaii on my first real solo trip.</description>
     </item>
     
     <item>
       <title>India&#39;s Undercurrent of Propaganda</title>
-      <link>http://nishanttotla.com/blog/india-undercurrent-propaganda/</link>
+      <link>https://nishanttotla.com/blog/india-undercurrent-propaganda/</link>
       <pubDate>Fri, 06 Nov 2015 16:01:47 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/india-undercurrent-propaganda/</guid>
+      <guid>https://nishanttotla.com/blog/india-undercurrent-propaganda/</guid>
       <description>India is currently at an interesting political standpoint. We finally have a single party forming the central government without needing support from other parties (last this happened was in 1984). The average Indian person seems to be much more aware and concerned about the political situation, and invested in the country’s future, especially young people. All of this is a major shift compared to a few years ago. There have been several contributing factors – dissatisfaction with the UPA govt.</description>
     </item>
     
     <item>
       <title>Learning about Empathy</title>
-      <link>http://nishanttotla.com/blog/learning-about-empathy/</link>
+      <link>https://nishanttotla.com/blog/learning-about-empathy/</link>
       <pubDate>Wed, 28 Oct 2015 15:46:09 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/learning-about-empathy/</guid>
+      <guid>https://nishanttotla.com/blog/learning-about-empathy/</guid>
       <description>Empathy is such a simple concept to understand, yet so difficult to practice! Kids are taught about it. The word itself is lazily thrown around, assuming everyone knows how to empathize, that it’s something we’re naturally good at. Well we’re not! Even if we care enough to look outside our own busy lives to try and want to empathize with someone, it’s too easy to fall into the trap of making judgments or believing we know everything about another person’s situation.</description>
     </item>
     
     <item>
       <title>Supporting a Football Club</title>
-      <link>http://nishanttotla.com/blog/supporting-a-football-club/</link>
+      <link>https://nishanttotla.com/blog/supporting-a-football-club/</link>
       <pubDate>Mon, 26 Oct 2015 19:10:35 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/supporting-a-football-club/</guid>
+      <guid>https://nishanttotla.com/blog/supporting-a-football-club/</guid>
       <description>Sunday, March 28, 2004 : Arsenal vs Manchester United at Highbury, London was the first live football game I watched (on TV, of course). I’d only ever followed cricket before that and played some football, but this was unlike anything I knew in sport. It was fast and full of action. These players were really passionate and the tension was palpable. Then on 50 minutes, Arsenal’s number 14 scored from a brilliant long range effort, a stunning goal by any standard!</description>
     </item>
     
     <item>
       <title>Rediscovering Podcasts</title>
-      <link>http://nishanttotla.com/blog/rediscovering-podcasts/</link>
+      <link>https://nishanttotla.com/blog/rediscovering-podcasts/</link>
       <pubDate>Mon, 19 Oct 2015 15:50:52 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/rediscovering-podcasts/</guid>
+      <guid>https://nishanttotla.com/blog/rediscovering-podcasts/</guid>
       <description>This summer, I was interviewing at several companies. Among other things, it involved a lot of travel, and there was little I could do while traveling. If I was driving, I’d mostly listen to my usual Spotify playlists, although they got boring pretty soon. Taking the train allowed me to read in addition, but I’d usually get distracted or fall asleep since the interviews were exhausting. Soon enough, all this travel time started feeling wasteful, but I wanted to reclaim it, so I constantly tried to find ways to engage in something productive, or learn something new.</description>
     </item>
     
     <item>
       <title>Eight Lessons I Learned in College</title>
-      <link>http://nishanttotla.com/blog/x-lessons-i-learned-in-college/</link>
+      <link>https://nishanttotla.com/blog/x-lessons-i-learned-in-college/</link>
       <pubDate>Thu, 21 Jun 2012 19:26:42 -0800</pubDate>
       
-      <guid>http://nishanttotla.com/blog/x-lessons-i-learned-in-college/</guid>
+      <guid>https://nishanttotla.com/blog/x-lessons-i-learned-in-college/</guid>
       <description>I’m writing a post after around five months! Whoa! What a ride the last semester has been! I’ve now graduated (provided they give me my degree) from one of the best colleges in India, with new hopes and dreams, some knowledge, passion and a lot of friends. The past few months have been a blur, and I’ve done loads of new things. Most importantly, I’ve had the opportunity to think about and look at all that I accomplished (or failed to accomplish) during college, I’ve thought about where my motivations lie, what I want from life and ultimately how I’m going to achieve that.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://nishanttotla.com/about/</link>
+      <link>https://nishanttotla.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nishanttotla.com/about/</guid>
+      <guid>https://nishanttotla.com/about/</guid>
       <description>I use this website primarily to record and share my thoughts, ideas, life events, and learnings. Some of the things I write about include technology, travel, mental health, company culture, and social justice. Here&amp;rsquo;s what you can find on here
  Blog &amp;ndash; Long-form articles about my opinions, travel, or anything else I find worth writing about. Monthly Log &amp;ndash; A monthly summary of readings, music, and other interesting things.</description>
     </item>
     
     <item>
       <title>Colophon</title>
-      <link>http://nishanttotla.com/colophon/</link>
+      <link>https://nishanttotla.com/colophon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://nishanttotla.com/colophon/</guid>
+      <guid>https://nishanttotla.com/colophon/</guid>
       <description>This website is written using Sublime Text 3 and compiled into HTML using Hugo - a static site generator written in Go. The design is based on top of the excellent work by Prakhar Srivastav using the minimalistic CSS framework called Skeleton.
 Icons on the site are courtesy of Fontello. Typography uses Source Sans Pro and Open Sans.
 The profile image on the homepage is from March 2017, and was taken in New Orleans.</description>
