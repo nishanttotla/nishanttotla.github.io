@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on nRT</title>
-    <link>https://nishanttotla.com/tags/blog/</link>
+    <link>http://nishanttotla.com/tags/blog/</link>
     <description>Recent content in Blog on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Mar 2016 00:52:35 -0700</lastBuildDate>
     
-	<atom:link href="https://nishanttotla.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishanttotla.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why I Moved to a Static Website</title>
-      <link>https://nishanttotla.com/blog/why-i-moved-to-static-website/</link>
+      <link>http://nishanttotla.com/blog/why-i-moved-to-static-website/</link>
       <pubDate>Mon, 14 Mar 2016 00:52:35 -0700</pubDate>
       
-      <guid>https://nishanttotla.com/blog/why-i-moved-to-static-website/</guid>
+      <guid>http://nishanttotla.com/blog/why-i-moved-to-static-website/</guid>
       <description>As some of you know, I&amp;rsquo;ve maintained a personal website/blog for a few years now. I&amp;rsquo;ve always liked writing, because I consider it to be a natural extension of thinking. While I&amp;rsquo;m not great with words, I do love keeping track of things I learn &amp;ndash; that&amp;rsquo;s really what a blog means to me. Over time, I went through several iterations to find the right platform. Things always revolved around WordPress, and regardless of what I tried, the experience of writing never got much better.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcasts on nRT</title>
-    <link>https://nishanttotla.com/tags/podcasts/</link>
+    <link>http://nishanttotla.com/tags/podcasts/</link>
     <description>Recent content in Podcasts on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Oct 2015 15:50:52 -0800</lastBuildDate>
     
-	<atom:link href="https://nishanttotla.com/tags/podcasts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishanttotla.com/tags/podcasts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rediscovering Podcasts</title>
-      <link>https://nishanttotla.com/blog/rediscovering-podcasts/</link>
+      <link>http://nishanttotla.com/blog/rediscovering-podcasts/</link>
       <pubDate>Mon, 19 Oct 2015 15:50:52 -0800</pubDate>
       
-      <guid>https://nishanttotla.com/blog/rediscovering-podcasts/</guid>
+      <guid>http://nishanttotla.com/blog/rediscovering-podcasts/</guid>
       <description>This summer, I was interviewing at several companies. Among other things, it involved a lot of travel, and there was little I could do while traveling. If I was driving, I’d mostly listen to my usual Spotify playlists, although they got boring pretty soon. Taking the train allowed me to read in addition, but I’d usually get distracted or fall asleep since the interviews were exhausting. Soon enough, all this travel time started feeling wasteful, but I wanted to reclaim it, so I constantly tried to find ways to engage in something productive, or learn something new.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moving on nRT</title>
-    <link>https://nishanttotla.com/tags/moving/</link>
+    <link>http://nishanttotla.com/tags/moving/</link>
     <description>Recent content in Moving on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Aug 2017 14:27:43 -0700</lastBuildDate>
     
-	<atom:link href="https://nishanttotla.com/tags/moving/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishanttotla.com/tags/moving/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Moving To San Francisco</title>
-      <link>https://nishanttotla.com/blog/moving-to-san-francisco/</link>
+      <link>http://nishanttotla.com/blog/moving-to-san-francisco/</link>
       <pubDate>Tue, 29 Aug 2017 14:27:43 -0700</pubDate>
       
-      <guid>https://nishanttotla.com/blog/moving-to-san-francisco/</guid>
+      <guid>http://nishanttotla.com/blog/moving-to-san-francisco/</guid>
       <description>Today, I officially completed my move to San Francisco, giving up keys to my beloved apartment in Berkeley. When I moved to Berkeley on my birthday in 2012, I&amp;rsquo;d started out as an excited young person looking forward to great experiences and a successful time in the PhD program. Things turned out to be quite different in reality, but Berkeley has had a significant impact on my preferences, identity, and world view.</description>
     </item>
     

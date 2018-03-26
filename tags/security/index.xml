@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on nRT</title>
-    <link>https://nishanttotla.com/tags/security/</link>
+    <link>http://nishanttotla.com/tags/security/</link>
     <description>Recent content in Security on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Apr 2016 14:18:26 -0700</lastBuildDate>
     
-	<atom:link href="https://nishanttotla.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishanttotla.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Signing Git Commits with a GPG Key</title>
-      <link>https://nishanttotla.com/scitech/signing-git-commits-gpg/</link>
+      <link>http://nishanttotla.com/scitech/signing-git-commits-gpg/</link>
       <pubDate>Wed, 13 Apr 2016 14:18:26 -0700</pubDate>
       
-      <guid>https://nishanttotla.com/scitech/signing-git-commits-gpg/</guid>
+      <guid>http://nishanttotla.com/scitech/signing-git-commits-gpg/</guid>
       <description>In my last post, I described public key encryption and how you can generate new PGP keys using Keybase. That was just a start, and PGP keys have several uses. One of the first things I wanted to do was to start signing all my Git commits.
 Why Sign Commits? Recent versions of Git (v1.7.9 and above) introduced the ability to sign commits using a GPG key. A signed commit can be verified to make sure that you wrote the code that you claim you did.</description>
     </item>
     
     <item>
       <title>Playing with Keybase.io</title>
-      <link>https://nishanttotla.com/scitech/playing-with-keybase-io/</link>
+      <link>http://nishanttotla.com/scitech/playing-with-keybase-io/</link>
       <pubDate>Mon, 11 Apr 2016 10:10:15 -0700</pubDate>
       
-      <guid>https://nishanttotla.com/scitech/playing-with-keybase-io/</guid>
+      <guid>http://nishanttotla.com/scitech/playing-with-keybase-io/</guid>
       <description>I have to admit, despite having spent so many years studying Computer Science, my understanding of security and modern best practices is pretty shabby. I&amp;rsquo;m fixing that now, and it was a perfect opportunity when a friend invited me to try keybase.io. It&amp;rsquo;s still an Alpha product, and invite-only (or sign up and join the waitlist). I learned new things while trying it out, and wanted to write about it.</description>
     </item>
     

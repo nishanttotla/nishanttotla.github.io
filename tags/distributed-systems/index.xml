@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distributed Systems on nRT</title>
-    <link>https://nishanttotla.com/tags/distributed-systems/</link>
+    <link>http://nishanttotla.com/tags/distributed-systems/</link>
     <description>Recent content in Distributed Systems on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Jan 2016 16:25:04 -0800</lastBuildDate>
     
-	<atom:link href="https://nishanttotla.com/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nishanttotla.com/tags/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Distributed Systems Resources</title>
-      <link>https://nishanttotla.com/scitech/distributed-systems-resources/</link>
+      <link>http://nishanttotla.com/scitech/distributed-systems-resources/</link>
       <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
       
-      <guid>https://nishanttotla.com/scitech/distributed-systems-resources/</guid>
+      <guid>http://nishanttotla.com/scitech/distributed-systems-resources/</guid>
       <description>I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.
 In this (dynamically updated) post, I intend to keep track of all good resources I come across in this quest. This includes not only research papers and books, but also good blogs, people to follow and discussions/meetups that could be helpful.</description>
     </item>
