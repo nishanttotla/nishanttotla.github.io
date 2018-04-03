@@ -127,7 +127,7 @@
 
 <p>Pretty Good Privacy (PGP) was a program created to encrypt/decrypt data back in 1991, and was later incorporated into a company that is now owned by Symantec. Later, an open standard called OpenPGP was created, which contained the formats for keys, encrypted messages, and message signatures defined by PGP. Thus, any other software that implemented the OpenPGP standard could interact with PGP. The GNU Privacy Guard (GPG) is one such implementation. It&rsquo;s open source, part of the GNU project, and has become standard software, powering a huge chunk of encryption on the web.</p>
 
-<p>The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathematical operation that&rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &ldquo;sign&rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>.</p>
+<p>The way these work is that you first generate a public and private key using a program on your computer. As the names suggest, the private key is a secret, while the public key can be made available publicly. When someone wants to send a message, they encrypt it using your public key. This is equivalent to a mathematical operation that&rsquo;s computationally very hard to reverse, unless you have the corresponding private key. On the other hand, you can use your private key to &ldquo;sign&rdquo; a message, which can only be decrypted using your public key. This is useful to prove that the message is indeed coming from you<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>. This shows how you can send a verified (signed) and encrypted message to a friend that is secure and tamper-evident<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>.</p>
 
 <h4 id="the-web-of-trust">The Web of Trust</h4>
 
@@ -211,7 +211,7 @@ Push an encrypted copy of your new secret key to the Keybase.io server? [Y/n] n
 ▶ INFO   4096-bit RSA key, ID 7EA5781C9B3D0C19, created 2016-04-07
 </code></pre>
 
-<p>Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on <a href="https://keybase.io/nishanttotla">my Keybase account</a>. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup>.</p>
+<p>Great! This created a public-private key pair that I can now use to send encrypted messages to people, or sign stuff. The final line above is the public key fingerprint, also listed on <a href="https://keybase.io/nishanttotla">my Keybase account</a>. Notice that you have the option to upload an encrypted copy of your private key to the Keybase server<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>.</p>
 
 <h3 id="adding-trust-using-public-accounts">Adding Trust Using Public Accounts</h3>
 
@@ -242,7 +242,7 @@ Check Twitter again now? [Y/n] Y
 <li>Verified ownership of this key pair by posting to public websites</li>
 </ul>
 
-<p>All of these are connected as shown below<sup class="footnote-ref" id="fnref:4"><a rel="footnote" href="#fn:4">4</a></sup></p>
+<p>All of these are connected as shown below<sup class="footnote-ref" id="fnref:4"><a href="#fn:4">4</a></sup></p>
 
 <figure>
     <img data-action="zoom" src="/images/keybase-io/keybase-graph.png" style="width:100%;"></img>

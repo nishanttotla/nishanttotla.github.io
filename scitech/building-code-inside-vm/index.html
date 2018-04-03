@@ -130,11 +130,11 @@
 
 <p>The solution was the continue writing code on the Mac, but build it inside the VM &ndash; a win-win. But how?</p>
 
-<p>The first solution I came up with involved using <code>rsync</code>, a very popular file synchronization tool for Unix-like systems. I set up one folder called <code>work</code> on my Mac, and one on the VM, and used <code>rsync</code> to copy files from one to the other. Any changes were automatically detected using <code>inotify</code> (or similar tools), and triggered a sync. I won&rsquo;t describe that in detail because it&rsquo;s not only fragile and prone to corruption<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>, but also too hard to set up<sup class="footnote-ref" id="fnref:2"><a rel="footnote" href="#fn:2">2</a></sup>. All this was before I discovered that I could mount folders (duh) and create a relatively stable solution. If this is something you&rsquo;re interested in too, read on!</p>
+<p>The first solution I came up with involved using <code>rsync</code>, a very popular file synchronization tool for Unix-like systems. I set up one folder called <code>work</code> on my Mac, and one on the VM, and used <code>rsync</code> to copy files from one to the other. Any changes were automatically detected using <code>inotify</code> (or similar tools), and triggered a sync. I won&rsquo;t describe that in detail because it&rsquo;s not only fragile and prone to corruption<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>, but also too hard to set up<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>. All this was before I discovered that I could mount folders (duh) and create a relatively stable solution. If this is something you&rsquo;re interested in too, read on!</p>
 
 <h3 id="setting-up-a-mounted-folder-on-a-virtualbox-vm">Setting up a mounted folder on a VirtualBox VM</h3>
 
-<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:3"><a rel="footnote" href="#fn:3">3</a></sup>.</p>
+<p>It&rsquo;s relatively easy to create a VM using your Linux distribution of choice. I use Ubuntu 14.04 right now, but the setup should work in most cases. Once you&rsquo;ve installed the VM, make sure you install <code>openssh-server</code> to be able to SSH into it from the host<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>.</p>
 
 <pre><code>$ sudo apt-get install openssh-server
 </code></pre>
