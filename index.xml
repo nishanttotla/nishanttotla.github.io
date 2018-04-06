@@ -6,10 +6,30 @@
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2018 15:24:42 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Apr 2018 23:57:44 -0700</lastBuildDate>
     
 	<atom:link href="https://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stub</title>
+      <link>https://nishanttotla.com/archive/stub/</link>
+      <pubDate>Mon, 02 Apr 2018 23:57:44 -0700</pubDate>
+      
+      <guid>https://nishanttotla.com/archive/stub/</guid>
+      <description>This page is a stub. It&amp;rsquo;s part of a hack meant to publish an archive page using Hugo. The archive page contains a list of all the pages across all sections of the website. To see how it works, check the following files
+ themes/skeleton/layouts/partials/archivelist.html &amp;ndash; The main condition here that does the magic is {{ if and (.IsPage) (.Section) (not (eq .Section &amp;quot;archive&amp;quot; )) }} themes/skeleton/layouts/section/archive.html  </description>
+    </item>
+    
+    <item>
+      <title>March 2018</title>
+      <link>https://nishanttotla.com/monthly-log/2018-03/</link>
+      <pubDate>Sat, 31 Mar 2018 10:57:14 -0800</pubDate>
+      
+      <guid>https://nishanttotla.com/monthly-log/2018-03/</guid>
+      <description>Articles  Transit Maps: Apple vs. Google vs. Us [Medium] &amp;ndash; Written by designers at Transit, this is a cool look at some design principles behind making beautiful and useful transit maps in a general way.
+ Women are fading out from Bollywood music  [Hindustan Times] &amp;ndash; An analysis of over 24000 Bollywood songs across multiple decades shows that fewer songs sung by female playback singers get made these days, compared to before.</description>
+    </item>
     
     <item>
       <title>February 2018</title>
