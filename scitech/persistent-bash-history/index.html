@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
   <title>
-    March 2018 - nRT | Nishant Totla
+    Persistent Bash History - nRT | Nishant Totla
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -18,11 +18,11 @@
 
   <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Nishant Totla - nRT">
-<meta property="og:title" content="March 2018" />
+<meta property="og:title" content="Persistent Bash History" />
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="https://nishanttotla.com/monthly-log/2018-03/" />
-<meta property="og:description" content="Interesting updates from the past month" />
+<meta property="og:url" content="https://nishanttotla.com/scitech/persistent-bash-history/" />
+<meta property="og:description" content="How to store persistent bash history across all terminal instances" />
 <meta property="og:image" content="https://nishanttotla.com/images/nishant_nola.jpg"/>
 <meta property="article:author" content="https://www.facebook.com/nishanttotla" />
 <meta property="article:publisher" content="https://www.facebook.com/nishanttotla" />
@@ -30,8 +30,8 @@
   <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@nishanttotla">
 <meta name="twitter:creator" content="@nishanttotla">
-<meta name="twitter:title" content="March 2018" />
-<meta name="twitter:description" content="Interesting updates from the past month" />
+<meta name="twitter:title" content="Persistent Bash History" />
+<meta name="twitter:description" content="How to store persistent bash history across all terminal instances" />
 <meta name="twitter:image" content="https://nishanttotla.com/images/nishant_nola.jpg"/>
 
 
@@ -97,15 +97,15 @@
     <div class="row">
       <section>
         <h1 class="post-title">
-          <a href="/monthly-log/2018-03/">March 2018</a>
+          <a href="/scitech/persistent-bash-history/">Persistent Bash History</a>
         </h1>
 
         <div class="post-content-meta">
           
             <i class="icon-calendar"></i>
             <span class="post-date">
-              <span class="post-date-month">March</span>
-              <span class="post-date-day"> 31, </span>
+              <span class="post-date-month">April</span>
+              <span class="post-date-day"> 6, </span>
               <span class="post-date-year">2018</span>
             </span>
           
@@ -113,65 +113,70 @@
           
           
               <span class="post-tag"> in </span>
-              <a class="post-tag" href="/monthly-log">
-                <i class="icon-list-bullet"></i>monthly-log</a>
+              <a class="post-tag" href="/scitech">
+                <i class="icon-list-bullet"></i>scitech</a>
           
         </div>
 
         <div class="post-content">
-          
+          <p>As a software engineer, I spend a lot of time across multiple terminal instances. When I started
+working at Docker, there were several times when I learned a new way to accomplish something, and
+then needed to do it again a few weeks later, only to realize I didn&rsquo;t remember the right commands
+or arguments. Since regular bash history (the <code>history</code> command) isn&rsquo;t very reliable across terminal
+instances or reboots, I needed a better solution to maintain all history persistently. For this,
+I found a great solution on <a href="https://eli.thegreenplace.net/2013/06/11/keeping-persistent-history-in-bash/">Eli Bendersky&rsquo;s website</a>, which I was able to slightly modify and adapt to my
+preferences. You can look at Eli&rsquo;s solution for some useful aliases or trimming of the history,
+but I chose not to do that for now. Here&rsquo;s my solution.</p>
 
-<p>It&rsquo;s been two full years now since I&rsquo;ve been creating these monthly logs. Wow!</p>
+<p>In the <code>.bashrc</code> file, put the following code:</p>
 
-<h3 id="articles">Articles</h3>
+<pre><code>HISTTIMEFORMAT=&quot;%d/%m/%y %T &quot;
 
-<ul>
-<li><p><a href="https://medium.com/transit-app/transit-maps-apple-vs-google-vs-us-cb3d7cd2c362">Transit Maps: Apple vs. Google vs. Us</a> [Medium] &ndash; Written by designers at Transit,
-this is a cool look at some design principles behind making beautiful and useful transit maps
-in a general way.</p></li>
+log_bash_persistent_history()
+{
+  [[
+    $(history 1) =~ ^\ *[0-9]+\ +([^\ ]+\ [^\ ]+)\ +(.*)$
+  ]]
+  local date_part=&quot;${BASH_REMATCH[1]}&quot;
+  local command_part=&quot;${BASH_REMATCH[2]}&quot;
+  # Uncomment the if statement to avoid repeatedly recording the same
+  # command when typed inside a single bash session. YMMV.
+  # if [ &quot;$command_part&quot; != &quot;$PERSISTENT_HISTORY_LAST&quot; ]
 
-<li><p><a href="https://www.hindustantimes.com/interactives/bollywood-songs-gender/">Women are fading out from Bollywood music
-</a> [Hindustan Times] &ndash; An analysis
-of over 24000 Bollywood songs across multiple decades shows that fewer songs sung by female
-playback singers get made these days, compared to before.</p></li>
+  # this if statement is needed in case the above if statement isn't used
+  # because otherwise, pressing enter will create a duplicate entry
+  # for the last command that was input
+  if [ &quot;$date_part&quot; != &quot;$PERSISTENT_HISTORY_LAST_MOMENT&quot; ]
+  then
+    echo $date_part &quot;|&quot; &quot;$command_part&quot; &quot;|&quot; &quot;$(pwd)&quot; &gt;&gt; ~/.persistent_history
+    export PERSISTENT_HISTORY_LAST=&quot;$command_part&quot;
+    export PERSISTENT_HISTORY_LAST_MOMENT=&quot;$date_part&quot;
+  fi
+}
 
-<li><p><a href="https://www.vox.com/culture/2018/3/26/17157414/hbo-high-maintenance-season-2-review-guy">The unexpected and boundless generosity of HBO’s High Maintenance</a> [Vox] &ndash; <a href="/monthly-log/2018-02/">Last month</a> I mentioned the HBO show High Maintenance, about a weed delivery guy in
-Brooklyn, and why I love it. This article is a love letter to the show.</p></li>
+# Stuff to do on PROMPT_COMMAND
+run_on_prompt_command()
+{
+    log_bash_persistent_history
+}
 
-<li><p><a href="https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump">‘I made Steve Bannon’s psychological warfare tool’: meet the data war whistleblower</a> [The Guardian] &ndash; Cambridge Analytica and Facebook have been the flavor of the month. This article looks
-at how it all came to be, described by Christopher Wylie who was a key participant in the effort.</p></li>
+PROMPT_COMMAND=&quot;run_on_prompt_command&quot;
+</code></pre>
 
-<li><p><a href="https://blog.aboutamazon.com/working-at-amazon/blind-since-birth-writing-code-at-amazon-since-2013">Blind since birth, writing code at Amazon since 2013</a> [Day One] &ndash; The inspiring story of Michael Forzano,
-who works at Amazon as a software engineer and is blind.</p></li>
+<p>This puts all your persistent history across terminals into a file called <code>~/.persistent_history</code>.
+The important line, in case you want to make any changes, is</p>
 
-<li><p><a href="https://www.theatlantic.com/business/archive/2018/03/corporations-people-adam-winkler/554852/">&lsquo;Corporations Are People&rsquo; Is Built on an Incredible 19th-Century Lie</a> [The Atlantic] &ndash; A brief history
-of one of the weirdest ideas in America &ndash; Corporate personhood. This article describes how the
-Southern Pacific Railroad Company turned a law that was created to protect the rights of minorities into
-a law that also (and primarily) started applying to corporations.</p></li>
+<pre><code>echo $date_part &quot;|&quot; &quot;$command_part&quot; &quot;|&quot; &quot;$(pwd)&quot; &gt;&gt; ~/.persistent_history
+</code></pre>
 
-<li><p><a href="https://www.theguardian.com/us-news/2018/feb/27/us-civil-rights-report-kerner-commission">Half-century of US civil rights gains have stalled or reversed, report finds</a> [The Guardian] &ndash; Civil rights gains of the past half-century have stalled or in some areas gone into reverse, according to a report marking the 50th anniversary of the landmark Kerner Commission. Child poverty has increased, schools have become resegregated and white supremacists are becoming emboldened and more violent, the study says.</p></li>
+<p>I chose to record the working directory (<code>pwd</code>) because it provides meaningful context. Other than
+that, there&rsquo;s not a whole lot going on here.</p>
 
-<li><p><a href="https://www.vice.com/en_uk/article/dpwamv/when-malcolm-x-met-the-nazis-0000620-v22n4">When Malcolm X Met the Nazis
-</a> [Vice] &ndash; A white
-author on Vice writing a story with a clickbaity title should make your ears perk up, and rightly so,
-because this article misses important context. Primarily though, it does touch upon some interesting
-historical events.</p></li>
-</ul>
-
-<h3 id="podcasts">Podcasts</h3>
-
-<ul>
-<li><a href="https://www.npr.org/2018/03/19/594719471/guys-we-have-a-problem-how-american-masculinity-creates-lonely-men">How American Masculinity Creates Lonely Men</a> [Hidden Brain] &ndash; What happens when half the population gets the message that needing others is a sign of weakness and that being vulnerable is unmanly. If you identify as a man, maybe several themes in this episode will appeal to you.</li>
-</ul>
-
-<h3 id="miscellaneous">Miscellaneous</h3>
-
-<ul>
-<li><p><a href="https://en.wikipedia.org/wiki/List_of_songs_about_cities">List of songs about cities</a> &ndash; I&rsquo;m not sure
-why I find this so interesting, but just thought someone else out there might too.</p></li>
-
-<li><p><a href="https://100jewishfoods.tabletmag.com/">100 Most Jewish Foods</a> &ndash; Some really gorgeous illustrations.</p></li>
-</ul>
+<p>This has been extremely useful to me in the last year or two that I&rsquo;ve used it. The only downside
+to doing this that I can imagine is that you&rsquo;re now running a few other commands and writing to
+disk each time you run a command on your terminal. I don&rsquo;t think this is really a huge deal
+for modern machines, and if I really cared about performance, I&rsquo;d be writing a separate bash
+script anyway.</p>
 
           
               - nRT
@@ -179,6 +184,17 @@ why I find this so interesting, but just thought someone else out there might to
         </div>
 
   			
+  		    	<hr class="thin" />
+  <div class="social-sharing">
+    <h1 class="social-sharing">
+    Share:
+    <a class="share-button-twitter" title="Twitter" onClick="return popupShare(this.href);" href="http://twitter.com/share?text=Persistent%20Bash%20History&url=https%3a%2f%2fnishanttotla.com%2fscitech%2fpersistent-bash-history%2f&via=nishanttotla" target="_blank"><i class="icon-twitter-circled"></i></a>
+  	<a class="share-button-facebook" title="Facebook" onClick="return popupShare(this.href);" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnishanttotla.com%2fscitech%2fpersistent-bash-history%2f" target="_blank"><i class="icon-facebook-circled"></i></a>
+  	<a class="share-button-google-plus" title="Google Plus" onClick="return popupShare(this.href);" href="https://plus.google.com/share?url=https%3a%2f%2fnishanttotla.com%2fscitech%2fpersistent-bash-history%2f" target="_blank"><i class="icon-gplus-circled"></i></a>
+    </h1>
+  </div>
+<hr class="thin" />
+  		  
       </section>
     </div>
 
@@ -186,7 +202,7 @@ why I find this so interesting, but just thought someone else out there might to
 		  
         
         <div class="six columns">
-          <a class="paging-link" href="/monthly-log/2018-02/"><i class="icon-left-open"></i> February 2018</a>
+          <a class="paging-link" href="/scitech/signing-git-commits-gpg/"><i class="icon-left-open"></i> Signing Git Commits with a GPG Key</a>
         </div>
         
 				
@@ -220,6 +236,13 @@ why I find this so interesting, but just thought someone else out there might to
   </div>
   
 
+	
+		<script type="text/javascript">
+			function popupShare(url) {
+				window.open(url, '_blank', 'scrollbars,resizable,height=525,width=600');
+				return false;
+			}
+		</script>
 	
 
   <script>

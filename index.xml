@@ -6,10 +6,19 @@
     <description>Recent content on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Apr 2018 23:57:44 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 06 Apr 2018 00:27:13 -0700</lastBuildDate>
     
 	<atom:link href="https://nishanttotla.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Persistent Bash History</title>
+      <link>https://nishanttotla.com/scitech/persistent-bash-history/</link>
+      <pubDate>Fri, 06 Apr 2018 00:27:13 -0700</pubDate>
+      
+      <guid>https://nishanttotla.com/scitech/persistent-bash-history/</guid>
+      <description>As a software engineer, I spend a lot of time across multiple terminal instances. When I started working at Docker, there were several times when I learned a new way to accomplish something, and then needed to do it again a few weeks later, only to realize I didn&amp;rsquo;t remember the right commands or arguments. Since regular bash history (the history command) isn&amp;rsquo;t very reliable across terminal instances or reboots, I needed a better solution to maintain all history persistently.</description>
+    </item>
     
     <item>
       <title>Stub</title>
@@ -27,7 +36,8 @@
       <pubDate>Sat, 31 Mar 2018 10:57:14 -0800</pubDate>
       
       <guid>https://nishanttotla.com/monthly-log/2018-03/</guid>
-      <description>Articles  Transit Maps: Apple vs. Google vs. Us [Medium] &amp;ndash; Written by designers at Transit, this is a cool look at some design principles behind making beautiful and useful transit maps in a general way.
+      <description>It&amp;rsquo;s been two full years now since I&amp;rsquo;ve been creating these monthly logs. Wow!
+Articles  Transit Maps: Apple vs. Google vs. Us [Medium] &amp;ndash; Written by designers at Transit, this is a cool look at some design principles behind making beautiful and useful transit maps in a general way.
  Women are fading out from Bollywood music  [Hindustan Times] &amp;ndash; An analysis of over 24000 Bollywood songs across multiple decades shows that fewer songs sung by female playback singers get made these days, compared to before.</description>
     </item>
     
