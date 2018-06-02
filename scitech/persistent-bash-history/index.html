@@ -128,7 +128,7 @@ I found a great solution on <a href="https://eli.thegreenplace.net/2013/06/11/ke
 preferences. You can look at Eli&rsquo;s solution for some useful aliases or trimming of the history,
 but I chose not to do that for now. Here&rsquo;s my solution.</p>
 
-<p>In the <code>.bashrc</code> file, put the following code:</p>
+<p>In your <code>.bashrc</code> file<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>, put the following code:</p>
 
 <pre><code>HISTTIMEFORMAT=&quot;%d/%m/%y %T &quot;
 
@@ -169,6 +169,18 @@ The important line, in case you want to make any changes, is</p>
 <pre><code>echo $date_part &quot;|&quot; &quot;$command_part&quot; &quot;|&quot; &quot;$(pwd)&quot; &gt;&gt; ~/.persistent_history
 </code></pre>
 
+<p>Here&rsquo;s a sample of what that looks like</p>
+
+<pre><code>06/04/18 10:47:18 | ./release.sh  | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:47:27 | git status | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:47:29 | git add . | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:47:39 | git commit -s -m &quot;Updating submodule&quot; | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:49:07 | git diff | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:50:32 | git diff | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:50:34 | git status | /Users/nishant/Git Repositories/hugo-blog-skeleton
+06/04/18 10:50:36 | git add . | /Users/nishant/Git Repositories/hugo-blog-skeleton
+</code></pre>
+
 <p>I chose to record the working directory (<code>pwd</code>) because it provides meaningful context. Other than
 that, there&rsquo;s not a whole lot going on here.</p>
 
@@ -177,6 +189,15 @@ to doing this that I can imagine is that you&rsquo;re now running a few other co
 disk each time you run a command on your terminal. I don&rsquo;t think this is really a huge deal
 for modern machines, and if I really cared about performance, I&rsquo;d be writing a separate bash
 script anyway.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">The <code>.bashrc</code> file is typically located in the home directory and runs each time you open a new terminal instance.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
 
           
               - nRT
