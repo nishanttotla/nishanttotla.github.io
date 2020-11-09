@@ -48,15 +48,5 @@ Why Sign Commits? Recent versions of Git (v1.7.9 and above) introduced the abili
       <description>This post is based on the workflow I&amp;rsquo;ve been employing during my day to day work at Docker. When I first started, I chose to get a 13&amp;rsquo; Macbook Pro, which is a pretty solid machine to own. But a lot of the compiling and testing I needed to do needed a Linux distribution, so I had two options &amp;ndash; install Linux or use a Virtual Machine (VM). Installing VirtualBox and using a simple Ubuntu VM is a fairly straightforward solution, but there were two problems</description>
     </item>
     
-    <item>
-      <title>Distributed Systems Resources</title>
-      <link>https://nishanttotla.com/scitech/distributed-systems-resources/</link>
-      <pubDate>Sat, 02 Jan 2016 16:25:04 -0800</pubDate>
-      
-      <guid>https://nishanttotla.com/scitech/distributed-systems-resources/</guid>
-      <description>I started working on distributed systems in early 2016. Given that I had little to no background, I started trying to cover as much as possible from the literature out there.
-In this (dynamically updated) post, I intend to keep track of all good resources I come across in this quest. This includes not only research papers and books, but also good blogs, people to follow and discussions/meetups that could be helpful.</description>
-    </item>
-    
   </channel>
 </rss>

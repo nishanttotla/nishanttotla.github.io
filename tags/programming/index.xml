@@ -6,19 +6,10 @@
     <description>Recent content in Programming on nRT</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Apr 2016 12:05:11 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Mar 2016 13:35:12 -0800</lastBuildDate>
     
 	<atom:link href="https://nishanttotla.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>I&#39;m Not Here to Get Things Done</title>
-      <link>https://nishanttotla.com/notes/not-here-to-get-things-done/</link>
-      <pubDate>Tue, 05 Apr 2016 12:05:11 -0700</pubDate>
-      
-      <guid>https://nishanttotla.com/notes/not-here-to-get-things-done/</guid>
-      <description>I was talking to my friend Abhay recently, and he brought up a very interesting idea. He works at a software startup that&amp;rsquo;s still relatively small, which means that there&amp;rsquo;s a certain amount of pressure to make quick progress and produce results. This requires having to churn out functioning code on a regular basis. Unfortunately, it&amp;rsquo;s often easy to write code by pattern-matching or copying from other sources &amp;ndash; but an entirely different thing to fully understand, and internalize what you&amp;rsquo;re doing.</description>
-    </item>
     
     <item>
       <title>Building Code Inside a VM</title>
